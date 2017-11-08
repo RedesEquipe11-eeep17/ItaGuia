@@ -196,6 +196,7 @@ public class Tela1 extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Digite a Senha");
         }else{
             JOptionPane.showMessageDialog(null, "Senha Incorreta");
+            
         }
     }//GEN-LAST:event_campoSenhaActionPerformed
 
