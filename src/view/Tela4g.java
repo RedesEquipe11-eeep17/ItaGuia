@@ -30,8 +30,7 @@ public class Tela4g extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        jLabel3 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -59,12 +58,9 @@ public class Tela4g extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/praça dos tres climas.jpg"))); // NOI18N
 
-        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
-        jTextArea1.setColumns(20);
-        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Antes uma lagoa, a praça dos três climas,\nlocalizada no centro de Itapipoca, é uma\ndas praças mais importantes da cidade.\nFazendo uma alusão aos três climas da\ncidade, na praça encontra-se uma grande\npedra, representando a pedra ferrada,\nque se localiza na parte serrana da região.\nEm seguida é possível ver barcos e\npescadores empurrando o mesmo, o que\nsiimboliza o nosso litoral, tão rico em\nbeleza peculiar e em atrativos naturais.\nAdiantetem-se um vaqueiro montado\nem seu cavalo,o que vem a representar\no nosso sertão,característico por forte \ncalor do sol e o frio da noite.");
-        jScrollPane1.setViewportView(jTextArea1);
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("<html>Antes uma lagoa, a praça dos três climas,\nlocalizada no centro de Itapipoca, é uma\ndas praças mais importantes da cidade.\nFazendo uma alusão aos três climas da\ncidade, na praça encontra-se uma grande\npedra, representando a pedra ferrada,\nque se localiza na parte serrana da região.\nEm seguida é possível ver barcos e\npescadores empurrando o mesmo, o que\nsiimboliza o nosso litoral, tão rico em\nbeleza peculiar e em atrativos naturais.\nAdiantetem-se um vaqueiro montado\nem seu cavalo,o que vem a representar\no nosso sertão,característico por forte \ncalor do sol e o frio da noite.</html>");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -73,7 +69,7 @@ public class Tela4g extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
                 .addContainerGap())
@@ -86,7 +82,7 @@ public class Tela4g extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -218,12 +214,11 @@ public class Tela4g extends javax.swing.JFrame {
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;

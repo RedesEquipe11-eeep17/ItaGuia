@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel2" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel1" pref="631" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="45" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel2" pref="408" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Hist&#xf3;ria de Itapipoca"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Suas origens remontam aos prim&#xf3;rdios do S&#xe9;culo XVII, quando requereram e obtiveram por Sesmaria terras situadas na regi&#xe3;o, os portugueses Francisco Pinheiro do Lago e sua mulher D. Josefa Ferreira de Oliveira, Tom&#xe9; de Oliveira Chaves e sua mulher, tendo como localiza&#xe7;&#xe3;o possess&#xf3;ria os s&#xed;tios Santo Amaro e S&#xe3;o Jos&#xe9;, destacando Jer&#xf4;nimo de Freitas Guimar&#xe3;es e sua mulher D. Francisca Pinheiro do Lago.&#xa;&#xa;Desses e outros, vinculados ao mesmo agregamento, nasceu a Vila, mantendo a mesma denomina&#xe7;&#xe3;o e a ter como instrumento de cria&#xe7;&#xe3;o a Resolu&#xe7;&#xe3;o Imperial de 3 de fevereiro de 1823, referendado pelo Alvar&#xe1; de 17 de outubro do mesmo ano. Quando da transfer&#xea;ncia da Vila, para a localiza&#xe7;&#xe3;o atual, com o nome de Imperatriz, atribu&#xed;do conforme Lei Provincial n&#xba; 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudan&#xe7;a de nome, para a denomina&#xe7;&#xe3;o atual. Ocorreu segundo Dec. N&#xba; 1, de 2 de dezembro de 1889. Sua eleva&#xe7;&#xe3;o &#xe0; categoria de Cidade, ocorreu, em virtude de Lei n&#xba; 1.288, de 31 de agosto de 1915.&#xa;&#xa;Em suas manifesta&#xe7;&#xf5;es de apoio eclesial consta inicialmente do desdobramento do Curato do Acara&#xfa; em quatro Freguesias, conforme Provis&#xe3;o referenciada no ano de 1757 e assinada por D. Francisco Xavier Aranha, do Bispado de Pernambuco. Uma dessas Freguesias teve por sede o reduto de S&#xe3;o Bento de Amontada sob cuja jurisdi&#xe7;&#xe3;o ficou subordinado o reduto de S&#xe3;o Jos&#xe9; da Uruburetama.&#xa;&#xa;Em 1778, segundo praxe adotada na forma&#xe7;&#xe3;o de patrim&#xf4;nios eclesi&#xe1;sticos, Jer&#xf4;nimo Guimar&#xe3;es doou, em favor da rec&#xe9;m-desmembrada Freguesia, meia l&#xe9;gua de terras, situando-se nesse local o espa&#xe7;o f&#xed;sico onde deveria ser constru&#xed;da a Igreja-Matriz. A transfer&#xea;ncia de sede da Freguesia, para a Vila de Imperatriz, deu-se segundo Lei n&#xba; 364, de 29 de julho de 1846, sendo seu primeiro vig&#xe1;rio o padre Luiz Ant&#xf4;nio da Rocha Lima, funcionando provisoriamente na capela de Nossa senhora das Merc&#xea;s.&#xa;&#xa;A Igreja-Matriz, dedicada ao padroado de Nossa Senhora das Merc&#xea;s, teve como in&#xed;cio de obras o ano de 1881 e como respons&#xe1;vel Monsenhor Antero Jos&#xe9; de Lima. Dada a sua evolu&#xe7;&#xe3;o eclesi&#xe1;stica, concedeu-se &#xe0; Par&#xf3;quia o t&#xed;tulo de Bispado, n&#xe3;o havendo, pelo menos ao nosso alcance, registros que identifiquem a data-in&#xed;cio dessa evolu&#xe7;&#xe3;o.&#xa;Evolu&#xe7;&#xe3;o pol&#xed;tica&#xa;Quando da transfer&#xea;ncia da Vila, para a localiza&#xe7;&#xe3;o atual, com o nome de Imperatriz, atribu&#xed;do conforme Lei Provincial n&#xba; 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudan&#xe7;a de nome, para a denomina&#xe7;&#xe3;o atual. Ocorreu segundo Dec. N&#xba; 1, de 2 de dezembro de 1889. Sua eleva&#xe7;&#xe3;o &#xe0; categoria de Cidade, ocorreu, em virtude de Lei n&#xba; 1.288, de 31 de agosto de 1915.&lt;/html&gt;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -147,12 +147,12 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel1" max="32767" attributes="0"/>
-                      <Component id="jLabel2" pref="450" max="32767" attributes="0"/>
-                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel3" pref="450" max="32767" attributes="0"/>
+                      <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" pref="450" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -166,7 +166,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="133" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="177" max="32767" attributes="0"/>
+                  <Component id="jLabel3" pref="177" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -193,28 +193,17 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-          <AuxValues>
-            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-          </AuxValues>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea1">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="33" green="33" red="33" type="rgb"/>
-                </Property>
-                <Property name="columns" type="int" value="20"/>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Entenda os prim&#xf3;rdios da terra dos tr&#xea;s climas.&#xa;O ber&#xe7;o do centro da cidade &#xe9; a igreja da matriz&#xa;(Nossa Senhora das Merc&#xea;s) constru&#xed;da por Frei&#xa;Cassiano (1887-1890) com a ajuda de Monsenhor&#xa;Antero de Lima e Caio Prado (ent&#xe3;o governador &#xa;da prov&#xed;ncia). A igreja guarda em sua arquitetura&#xa; tra&#xe7;os da belle &#xe9;poque, trazida da Fran&#xe7;a no &#xa;per&#xed;odo parnasianista. A edifica&#xe7;&#xe3;o caracteriza-se&#xa;por marcar o in&#xed;cio do povoamento do centro da cidade."/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Entenda os prim&#xf3;rdios da terra dos tr&#xea;s climas.&#xa;O ber&#xe7;o do centro da cidade &#xe9; a igreja da matriz&#xa;(Nossa Senhora das Merc&#xea;s) constru&#xed;da por Frei&#xa;Cassiano (1887-1890) com a ajuda de Monsenhor&#xa;Antero de Lima e Caio Prado (ent&#xe3;o governador &#xa;da prov&#xed;ncia). A igreja guarda em sua arquitetura&#xa; tra&#xe7;os da belle &#xe9;poque, trazida da Fran&#xe7;a no &#xa;per&#xed;odo parnasianista. A edifica&#xe7;&#xe3;o caracteriza-se&#xa;por marcar o in&#xed;cio do povoamento do centro da cidade.&lt;/html&gt;"/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>

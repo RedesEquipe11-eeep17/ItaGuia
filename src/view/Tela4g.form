@@ -150,7 +150,7 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Component id="jLabel3" pref="380" max="32767" attributes="0"/>
                       <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
                       <Component id="jLabel2" alignment="0" pref="380" max="32767" attributes="0"/>
                   </Group>
@@ -166,7 +166,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="141" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="200" max="32767" attributes="0"/>
+                  <Component id="jLabel3" pref="200" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -193,28 +193,17 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-          <AuxValues>
-            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-          </AuxValues>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea1">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="33" green="33" red="33" type="rgb"/>
-                </Property>
-                <Property name="columns" type="int" value="20"/>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Antes uma lagoa, a pra&#xe7;a dos tr&#xea;s climas,&#xa;localizada no centro de Itapipoca, &#xe9; uma&#xa;das pra&#xe7;as mais importantes da cidade.&#xa;Fazendo uma alus&#xe3;o aos tr&#xea;s climas da&#xa;cidade, na pra&#xe7;a encontra-se uma grande&#xa;pedra, representando a pedra ferrada,&#xa;que se localiza na parte serrana da regi&#xe3;o.&#xa;Em seguida &#xe9; poss&#xed;vel ver barcos e&#xa;pescadores empurrando o mesmo, o que&#xa;siimboliza o nosso litoral, t&#xe3;o rico em&#xa;beleza peculiar e em atrativos naturais.&#xa;Adiantetem-se um vaqueiro montado&#xa;em seu cavalo,o que vem a representar&#xa;o nosso sert&#xe3;o,caracter&#xed;stico por forte &#xa;calor do sol e o frio da noite."/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Antes uma lagoa, a pra&#xe7;a dos tr&#xea;s climas,&#xa;localizada no centro de Itapipoca, &#xe9; uma&#xa;das pra&#xe7;as mais importantes da cidade.&#xa;Fazendo uma alus&#xe3;o aos tr&#xea;s climas da&#xa;cidade, na pra&#xe7;a encontra-se uma grande&#xa;pedra, representando a pedra ferrada,&#xa;que se localiza na parte serrana da regi&#xe3;o.&#xa;Em seguida &#xe9; poss&#xed;vel ver barcos e&#xa;pescadores empurrando o mesmo, o que&#xa;siimboliza o nosso litoral, t&#xe3;o rico em&#xa;beleza peculiar e em atrativos naturais.&#xa;Adiantetem-se um vaqueiro montado&#xa;em seu cavalo,o que vem a representar&#xa;o nosso sert&#xe3;o,caracter&#xed;stico por forte &#xa;calor do sol e o frio da noite.&lt;/html&gt;"/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>

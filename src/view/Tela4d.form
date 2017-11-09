@@ -150,7 +150,7 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Component id="jLabel3" pref="490" max="32767" attributes="0"/>
                       <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
                       <Component id="jLabel2" alignment="0" pref="490" max="32767" attributes="0"/>
                   </Group>
@@ -166,8 +166,8 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="173" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" min="-2" pref="195" max="-2" attributes="0"/>
-                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <Component id="jLabel3" pref="216" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -193,28 +193,17 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-          <AuxValues>
-            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-          </AuxValues>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea1">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="33" green="33" red="33" type="rgb"/>
-                </Property>
-                <Property name="columns" type="int" value="20"/>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Canoa &#xe9; uma das serras que rodeiam a cidade de Itapipoca.&#xa;Dotada de clima e vegeta&#xe7;&#xe3;o peculiar, a serra se destaca&#xa;por sua grande beleza, tornando-a prop&#xed;cia para a pr&#xe1;tica do&#xa;ecoturismo. O seu atrativo tur&#xed;stico principal &#xe9; um mon&#xf3;lito&#xa;chamado &#x201c;Pedra do Itapicu&#x201d;, o mesmo &#xe9; visitado por&#xa;aventureiros que buscam maior contato com a natureza.&#xa;Na sua vegeta&#xe7;&#xe3;o existem resqu&#xed;cios da mata atl&#xe2;ntica,&#xa;basicamente formada por &#xe1;rvores de grande porte."/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Canoa &#xe9; uma das serras que rodeiam a cidade de Itapipoca.&#xa;Dotada de clima e vegeta&#xe7;&#xe3;o peculiar, a serra se destaca&#xa;por sua grande beleza, tornando-a prop&#xed;cia para a pr&#xe1;tica do&#xa;ecoturismo. O seu atrativo tur&#xed;stico principal &#xe9; um mon&#xf3;lito&#xa;chamado &#x201c;Pedra do Itapicu&#x201d;, o mesmo &#xe9; visitado por&#xa;aventureiros que buscam maior contato com a natureza.&#xa;Na sua vegeta&#xe7;&#xe3;o existem resqu&#xed;cios da mata atl&#xe2;ntica,&#xa;basicamente formada por &#xe1;rvores de grande porte.&lt;/html&gt;"/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>

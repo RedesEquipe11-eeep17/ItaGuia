@@ -30,8 +30,7 @@ public class Tela4b extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         labelImagem = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        jLabel2 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -59,23 +58,23 @@ public class Tela4b extends javax.swing.JFrame {
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/1.jpg"))); // NOI18N
 
-        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
-        jTextArea1.setColumns(20);
-        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
-        jTextArea1.setRows(5);
-        jTextArea1.setText("É um monumento histórico situado no intermédio da sede de\nItapipoca e o distrito de Arapari. Segundo a lenda um cidadão\nserrano cujo nome era um certo senhor Júlio, estava com uma\nenfermidade grave, então fez a seguinte promessa, se fosse\ncurado iria entrar na mata e buscar o maior tronco que\nencontrasse para fazer  uma cruz e colocá-la no cruzeiro. \nO certo senhor Júlio foi curado, e assim cumpriu o que \nprometeu, construindo a cruz e colocando-a no cruzeiro, \no que viria a ser chamado de cruzeiro da balança, já que no \nlocal há fortes ventos, o que faz com que as árvores fiquem \nfrequentemente balançando. O monumento é um dos mais \nantigos da cidade, e o que mostra e simboliza a fé do povo \nitapipoquense.");
-        jScrollPane1.setViewportView(jTextArea1);
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("<html>É um monumento histórico situado no intermédio da sede de\nItapipoca e o distrito de Arapari. Segundo a lenda um cidadão\nserrano cujo nome era um certo senhor Júlio, estava com uma\nenfermidade grave, então fez a seguinte promessa, se fosse\ncurado iria entrar na mata e buscar o maior tronco que\nencontrasse para fazer  uma cruz e colocá-la no cruzeiro. \nO certo senhor Júlio foi curado, e assim cumpriu o que \nprometeu, construindo a cruz e colocando-a no cruzeiro, \no que viria a ser chamado de cruzeiro da balança, já que no \nlocal há fortes ventos, o que faz com que as árvores fiquem \nfrequentemente balançando. O monumento é um dos mais \nantigos da cidade, e o que mostra e simboliza a fé do povo \nitapipoquense.</html>");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(labelImagem)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 383, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -84,13 +83,13 @@ public class Tela4b extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(labelImagem)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelImagem)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 590));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 820, 390));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -217,12 +216,11 @@ public class Tela4b extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel labelImagem;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
