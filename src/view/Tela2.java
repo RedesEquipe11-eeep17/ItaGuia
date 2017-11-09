@@ -1,30 +1,31 @@
 package view;
 
+import javax.swing.JOptionPane;
+
 public class Tela2 extends javax.swing.JFrame {
 
     public Tela2() {
         
         initComponents();
-        this.setVisible(true);
-        int cont = 0;
+      
+    }   
+    public void contarTempo(){
+     int cont = 1;
+      JOptionPane.showMessageDialog(null, "Tecle enter para prosseguir");
         try{
-            Thread.sleep(3000);
+            
             while(cont<=3){
-                if(cont==3){
-                    this.dispose();
-                    Tela3 t3 = new Tela3();
-                    t3.setLocationRelativeTo(null);
-                    t3.setVisible(true);
-                }
+               
+                Thread.sleep(1000);
                 cont++;
             }
+            this.dispose();
+            Tela3 t3 = new Tela3();
+            t3.setLocationRelativeTo(null);
+            t3.setVisible(true);
         }catch(Exception erro){}
-        
-        
-            
-        
-    }   
-  
+       
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {

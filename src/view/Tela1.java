@@ -1,5 +1,7 @@
 package view;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 public class Tela1 extends javax.swing.JFrame {
@@ -44,10 +46,10 @@ public class Tela1 extends javax.swing.JFrame {
         painel.setBackground(new java.awt.Color(0, 0, 0));
         painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        labelNome.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        labelNome.setFont(new java.awt.Font("Arial", 1, 13)); // NOI18N
         labelNome.setForeground(new java.awt.Color(255, 255, 255));
         labelNome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelNome.setText("NOME:");
+        labelNome.setText("<html>Digite GUIA para iniciar:</html>");
         painel.add(labelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 100, 40));
 
         campoSenha.setToolTipText("Digite a Senha");
@@ -165,6 +167,7 @@ public class Tela1 extends javax.swing.JFrame {
             Tela2 t2=new Tela2();
             t2.setVisible(true);
             t2.setLocationRelativeTo(null);
+            t2.contarTempo();
             
        }
         
@@ -199,6 +202,7 @@ public class Tela1 extends javax.swing.JFrame {
             Tela2 t2=new Tela2();
             t2.setVisible(true);
             t2.setLocationRelativeTo(null);
+            t2.contarTempo();
             
         }
         else if(resposta.equals("")){
