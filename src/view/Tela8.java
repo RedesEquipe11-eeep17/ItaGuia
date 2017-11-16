@@ -30,6 +30,23 @@ public class Tela8 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        barraMenu = new javax.swing.JMenuBar();
+        menu1 = new javax.swing.JMenu();
+        menuItem1 = new javax.swing.JMenuItem();
+        menuItem2 = new javax.swing.JMenuItem();
+        menuItem3 = new javax.swing.JMenuItem();
+        menuItem4 = new javax.swing.JMenuItem();
+        menuItem5 = new javax.swing.JMenuItem();
+        menuItem6 = new javax.swing.JMenuItem();
+        menuItem7 = new javax.swing.JMenuItem();
+        separador1 = new javax.swing.JPopupMenu.Separator();
+        menuItem8 = new javax.swing.JMenuItem();
+        menuItem9 = new javax.swing.JMenuItem();
+        menu2 = new javax.swing.JMenu();
+        menuItem10 = new javax.swing.JMenuItem();
+        separator2 = new javax.swing.JPopupMenu.Separator();
+        menuItem11 = new javax.swing.JMenuItem();
+        menu3 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -68,9 +85,141 @@ public class Tela8 extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 520));
 
+        barraMenu.setBackground(new java.awt.Color(255, 255, 255));
+
+        menu1.setBackground(new java.awt.Color(255, 255, 255));
+        menu1.setText("Navegar");
+
+        menuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        menuItem1.setText("Ir para Início");
+        menuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem1ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem1);
+
+        menuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
+        menuItem2.setText("Ir para Pontos Turísticos");
+        menuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem2ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem2);
+
+        menuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
+        menuItem3.setText("Ir para Festejos da Cidade");
+        menuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem3ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem3);
+
+        menuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
+        menuItem4.setText("Ir para Fotos da Cidade");
+        menuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem4ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem4);
+
+        menuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
+        menuItem5.setText("Ir para Historia");
+        menuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem5ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem5);
+
+        menuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
+        menuItem6.setText("Ir para Mapa de Itapipoca");
+        menuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem6ActionPerformed(evt);
+            }
+        });
+        menu1.add(menuItem6);
+
+        menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
+        menuItem7.setText("Ir para Dicionario");
+        menu1.add(menuItem7);
+        menu1.add(separador1);
+
+        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
+        menuItem8.setText("Avançar");
+        menu1.add(menuItem8);
+
+        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
+        menuItem9.setText("Retornar");
+        menu1.add(menuItem9);
+
+        barraMenu.add(menu1);
+
+        menu2.setText("Ajuda");
+
+        menuItem10.setText("Deixe seu Comentario");
+        menu2.add(menuItem10);
+        menu2.add(separator2);
+
+        menuItem11.setText("Relatar Problema");
+        menu2.add(menuItem11);
+
+        barraMenu.add(menu2);
+
+        menu3.setText("Sobre");
+        barraMenu.add(menu3);
+
+        setJMenuBar(barraMenu);
+
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
+        this.dispose();
+        Tela3 t3 = new Tela3();
+        t3.setLocationRelativeTo(null);
+        t3.setVisible(true);
+    }//GEN-LAST:event_menuItem1ActionPerformed
+
+    private void menuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem2ActionPerformed
+        this.dispose();
+        Tela4 t4 = new Tela4();
+        t4.setLocationRelativeTo(null);
+        t4.setVisible(true);
+    }//GEN-LAST:event_menuItem2ActionPerformed
+
+    private void menuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem3ActionPerformed
+        this.dispose();
+        Tela5 t5 = new Tela5();
+        t5.setLocationRelativeTo(null);
+        t5.setVisible(true);
+    }//GEN-LAST:event_menuItem3ActionPerformed
+
+    private void menuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem4ActionPerformed
+        this.dispose();
+        Tela6 t6 = new Tela6();
+        t6.setLocationRelativeTo(null);
+        t6.setVisible(true);
+    }//GEN-LAST:event_menuItem4ActionPerformed
+
+    private void menuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem5ActionPerformed
+        this.dispose();
+        Tela7 t7 = new Tela7();
+        t7.setLocationRelativeTo(null);
+        t7.setVisible(true);
+    }//GEN-LAST:event_menuItem5ActionPerformed
+
+    private void menuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem6ActionPerformed
+        this.dispose();
+        Tela8 t8 = new Tela8();
+        t8.setLocationRelativeTo(null);
+        t8.setVisible(true);
+    }//GEN-LAST:event_menuItem6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -108,8 +257,25 @@ public class Tela8 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuBar barraMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JMenu menu1;
+    private javax.swing.JMenu menu2;
+    private javax.swing.JMenu menu3;
+    private javax.swing.JMenuItem menuItem1;
+    private javax.swing.JMenuItem menuItem10;
+    private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem2;
+    private javax.swing.JMenuItem menuItem3;
+    private javax.swing.JMenuItem menuItem4;
+    private javax.swing.JMenuItem menuItem5;
+    private javax.swing.JMenuItem menuItem6;
+    private javax.swing.JMenuItem menuItem7;
+    private javax.swing.JMenuItem menuItem8;
+    private javax.swing.JMenuItem menuItem9;
+    private javax.swing.JPopupMenu.Separator separador1;
+    private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }
