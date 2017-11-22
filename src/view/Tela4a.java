@@ -29,16 +29,17 @@ public class Tela4a extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        labelImagem = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        barraMenu3 = new javax.swing.JMenuBar();
-        menu5 = new javax.swing.JMenu();
+        labelImagem = new javax.swing.JLabel();
+        botaoReturn = new javax.swing.JButton();
+        barraMenu6 = new javax.swing.JMenuBar();
+        menu9 = new javax.swing.JMenu();
+        menuItem15 = new javax.swing.JMenuItem();
+        menuItem2 = new javax.swing.JMenuItem();
         menuItem3 = new javax.swing.JMenuItem();
         menuItem4 = new javax.swing.JMenuItem();
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
-        menuItem17 = new javax.swing.JMenuItem();
-        menuItem18 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
         separador1 = new javax.swing.JPopupMenu.Separator();
         menuItem8 = new javax.swing.JMenuItem();
@@ -50,6 +51,7 @@ public class Tela4a extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
@@ -59,12 +61,19 @@ public class Tela4a extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Igreja do Arapari (P.Nossa Senhora das Mercês)");
 
-        labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/igreja arapari.jpg"))); // NOI18N
-
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("<html>Localizada na parte serrana, distrito de Arapari, foi construída em \n1772. A igreja ainda tem traços da época, e conta com \narquitetura barroca sendo um dos monumentos mais velhos da \ncidade e contando a historia dos primeiros habitantes da \ncidade, como a do “criador do município” senhor \nJerônimo de Freitas Guimarães. De lá, tem-se uma \nbela vista, sendo possível uma visão geral da \nparte serrana da cidade dos três climas.</html>");
+
+        labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4a(1).jpg"))); // NOI18N
+
+        botaoReturn.setText("Retornar");
+        botaoReturn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botaoReturnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -73,10 +82,14 @@ public class Tela4a extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 450, Short.MAX_VALUE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(labelImagem, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 450, Short.MAX_VALUE))
+                    .addComponent(labelImagem, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 450, Short.MAX_VALUE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(botaoReturn)
+                .addGap(25, 25, 25))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -86,146 +99,204 @@ public class Tela4a extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelImagem)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 159, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(botaoReturn, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(18, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 510));
 
-        barraMenu3.setBackground(new java.awt.Color(255, 255, 255));
+        barraMenu6.setBackground(new java.awt.Color(255, 255, 255));
 
-        menu5.setBackground(new java.awt.Color(255, 255, 255));
-        menu5.setText("Navegar");
+        menu9.setBackground(new java.awt.Color(255, 255, 255));
+        menu9.setText("Navegar");
 
-        menuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        menuItem3.setText("Ir para Início");
+        menuItem15.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        menuItem15.setText("Ir para Início");
+        menuItem15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem15ActionPerformed(evt);
+            }
+        });
+        menu9.add(menuItem15);
+
+        menuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
+        menuItem2.setText("Ir para Pontos Turísticos");
+        menuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem2ActionPerformed(evt);
+            }
+        });
+        menu9.add(menuItem2);
+
+        menuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
+        menuItem3.setText("Ir para Festejos da Cidade");
         menuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem3ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem3);
+        menu9.add(menuItem3);
 
-        menuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
-        menuItem4.setText("Ir para Pontos Turísticos");
+        menuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
+        menuItem4.setText("Ir para Fotos da Cidade");
         menuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem4ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem4);
+        menu9.add(menuItem4);
 
-        menuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
-        menuItem5.setText("Ir para Festejos da Cidade");
+        menuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
+        menuItem5.setText("Ir para Historia");
         menuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem5ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem5);
+        menu9.add(menuItem5);
 
-        menuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
-        menuItem6.setText("Ir para Fotos da Cidade");
+        menuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
+        menuItem6.setText("Ir para Mapa de Itapipoca");
         menuItem6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem6ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem6);
-
-        menuItem17.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
-        menuItem17.setText("Ir para Historia");
-        menuItem17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem17ActionPerformed(evt);
-            }
-        });
-        menu5.add(menuItem17);
-
-        menuItem18.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
-        menuItem18.setText("Ir para Mapa de Itapipoca");
-        menuItem18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem18ActionPerformed(evt);
-            }
-        });
-        menu5.add(menuItem18);
+        menu9.add(menuItem6);
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
-        menu5.add(menuItem7);
-        menu5.add(separador1);
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
+        menu9.add(menuItem7);
+        menu9.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
-        menu5.add(menuItem8);
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
+        menu9.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
         menuItem9.setText("Retornar");
-        menu5.add(menuItem9);
+        menu9.add(menuItem9);
 
-        barraMenu3.add(menu5);
+        barraMenu6.add(menu9);
 
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
-        barraMenu3.add(menu2);
+        barraMenu6.add(menu2);
 
         menu3.setText("Sobre");
-        barraMenu3.add(menu3);
+        barraMenu6.add(menu3);
 
-        setJMenuBar(barraMenu3);
+        setJMenuBar(barraMenu6);
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void menuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem3ActionPerformed
+    private void menuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem15ActionPerformed
         this.dispose();
         Tela3 t3 = new Tela3();
         t3.setLocationRelativeTo(null);
         t3.setVisible(true);
-    }//GEN-LAST:event_menuItem3ActionPerformed
+    }//GEN-LAST:event_menuItem15ActionPerformed
 
-    private void menuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem4ActionPerformed
+    private void menuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem2ActionPerformed
         this.dispose();
         Tela4 t4 = new Tela4();
         t4.setLocationRelativeTo(null);
         t4.setVisible(true);
-    }//GEN-LAST:event_menuItem4ActionPerformed
+    }//GEN-LAST:event_menuItem2ActionPerformed
 
-    private void menuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem5ActionPerformed
+    private void menuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem3ActionPerformed
         this.dispose();
         Tela5 t5 = new Tela5();
         t5.setLocationRelativeTo(null);
         t5.setVisible(true);
-    }//GEN-LAST:event_menuItem5ActionPerformed
+    }//GEN-LAST:event_menuItem3ActionPerformed
 
-    private void menuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem6ActionPerformed
+    private void menuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem4ActionPerformed
         this.dispose();
         Tela6 t6 = new Tela6();
         t6.setLocationRelativeTo(null);
         t6.setVisible(true);
-    }//GEN-LAST:event_menuItem6ActionPerformed
+    }//GEN-LAST:event_menuItem4ActionPerformed
 
-    private void menuItem17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem17ActionPerformed
+    private void menuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem5ActionPerformed
         this.dispose();
         Tela7 t7 = new Tela7();
         t7.setLocationRelativeTo(null);
         t7.setVisible(true);
-    }//GEN-LAST:event_menuItem17ActionPerformed
+    }//GEN-LAST:event_menuItem5ActionPerformed
 
-    private void menuItem18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem18ActionPerformed
+    private void menuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem6ActionPerformed
         this.dispose();
         Tela8 t8 = new Tela8();
         t8.setLocationRelativeTo(null);
         t8.setVisible(true);
-    }//GEN-LAST:event_menuItem18ActionPerformed
+    }//GEN-LAST:event_menuItem6ActionPerformed
+
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
+
+    private void botaoReturnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoReturnActionPerformed
+        this.dispose();
+        Tela4 t41 = new Tela4();
+        t41.setLocationRelativeTo(null);
+        t41.setVisible(true);
+    }//GEN-LAST:event_botaoReturnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -263,23 +334,18 @@ public class Tela4a extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JMenuBar barraMenu2;
-    private javax.swing.JMenuBar barraMenu3;
+    private javax.swing.JMenuBar barraMenu6;
+    private javax.swing.JButton botaoReturn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel labelImagem;
-    private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
-    private javax.swing.JMenu menu4;
-    private javax.swing.JMenu menu5;
-    private javax.swing.JMenuItem menuItem1;
+    private javax.swing.JMenu menu9;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
-    private javax.swing.JMenuItem menuItem17;
-    private javax.swing.JMenuItem menuItem18;
+    private javax.swing.JMenuItem menuItem15;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;

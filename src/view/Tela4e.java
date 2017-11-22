@@ -31,6 +31,7 @@ public class Tela4e extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        botaoReturn = new javax.swing.JButton();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -50,6 +51,7 @@ public class Tela4e extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
@@ -60,11 +62,18 @@ public class Tela4e extends javax.swing.JFrame {
         jLabel1.setText("Horto do Santo Cruzeiro");
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/4.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4e(1).jpg"))); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("<html>O Horto do Santo Cruzeiro foi\ninaugurado em 1933, e\nsimboliza um grande\nmonumento para o município.\nNo Horto você encontrará uma\nestátua de São Sebastião,\npadroeiro da cidade, que foi\ninaugurada em 1977 e doada\nao município por José de\nPontes Neto, filho da cidade,\ne por Pe. Luís Gonzaga Xavier.\nDo Horto você pode ver a sede\nde Itapipoca em seus 360°,\nlá você encontrará uma\ntranquilidade que lhe permitirá\num pleno e duradouro\nmomento de reflexão.</html>");
+
+        botaoReturn.setText("Retornar");
+        botaoReturn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botaoReturnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -80,6 +89,11 @@ public class Tela4e extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 5, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                    .addContainerGap(379, Short.MAX_VALUE)
+                    .addComponent(botaoReturn, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap()))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -87,10 +101,15 @@ public class Tela4e extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 348, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                    .addContainerGap(468, Short.MAX_VALUE)
+                    .addComponent(botaoReturn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap()))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 510));
@@ -156,11 +175,21 @@ public class Tela4e extends javax.swing.JFrame {
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem7);
         menu1.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
@@ -172,10 +201,20 @@ public class Tela4e extends javax.swing.JFrame {
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
         barraMenu.add(menu2);
@@ -186,6 +225,7 @@ public class Tela4e extends javax.swing.JFrame {
         setJMenuBar(barraMenu);
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
@@ -230,6 +270,41 @@ public class Tela4e extends javax.swing.JFrame {
         t8.setVisible(true);
     }//GEN-LAST:event_menuItem6ActionPerformed
 
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
+
+    private void botaoReturnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoReturnActionPerformed
+        this.dispose();
+        Tela4 t41 = new Tela4();
+        t41.setLocationRelativeTo(null);
+        t41.setVisible(true);
+    }//GEN-LAST:event_botaoReturnActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -267,6 +342,7 @@ public class Tela4e extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
+    private javax.swing.JButton botaoReturn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

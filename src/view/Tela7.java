@@ -10,10 +10,10 @@ public class Tela7 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        painel1 = new javax.swing.JPanel();
+        labelImagem = new javax.swing.JLabel();
+        labelTitle = new javax.swing.JLabel();
+        labelTexto = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -35,45 +35,45 @@ public class Tela7 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("História de Itapipoca");
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T7(1).jpg"))); // NOI18N
+        labelImagem.setText("jLabel4");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel2.setText("<html>Suas origens remontam aos primórdios do Século XVII, quando requereram e obtiveram por Sesmaria terras situadas na região, os portugueses Francisco Pinheiro do Lago e sua mulher D. Josefa Ferreira de Oliveira, Tomé de Oliveira Chaves e sua mulher, tendo como localização possessória os sítios Santo Amaro e São José, destacando Jerônimo de Freitas Guimarães e sua mulher D. Francisca Pinheiro do Lago.  Desses e outros, vinculados ao mesmo agregamento, nasceu a Vila, mantendo a mesma denominação e a ter como instrumento de criação a Resolução Imperial de 3 de fevereiro de 1823, referendado pelo Alvará de 17 de outubro do mesmo ano. Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.  Em suas manifestações de apoio eclesial consta inicialmente do desdobramento do Curato do Acaraú em quatro Freguesias, conforme Provisão referenciada no ano de 1757 e assinada por D. Francisco Xavier Aranha, do Bispado de Pernambuco. Uma dessas Freguesias teve por sede o reduto de São Bento de Amontada sob cuja jurisdição ficou subordinado o reduto de São José da Uruburetama.  Em 1778, segundo praxe adotada na formação de patrimônios eclesiásticos, Jerônimo Guimarães doou, em favor da recém-desmembrada Freguesia, meia légua de terras, situando-se nesse local o espaço físico onde deveria ser construída a Igreja-Matriz. A transferência de sede da Freguesia, para a Vila de Imperatriz, deu-se segundo Lei nº 364, de 29 de julho de 1846, sendo seu primeiro vigário o padre Luiz Antônio da Rocha Lima, funcionando provisoriamente na capela de Nossa senhora das Mercês.  A Igreja-Matriz, dedicada ao padroado de Nossa Senhora das Mercês, teve como início de obras o ano de 1881 e como responsável Monsenhor Antero José de Lima. Dada a sua evolução eclesiástica, concedeu-se à Paróquia o título de Bispado, não havendo, pelo menos ao nosso alcance, registros que identifiquem a data-início dessa evolução. Evolução política Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.</html>");
+        labelTitle.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("História de Itapipoca");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/treta.jpg"))); // NOI18N
-        jLabel4.setText("jLabel4");
+        labelTexto.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        labelTexto.setForeground(new java.awt.Color(255, 255, 255));
+        labelTexto.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        labelTexto.setText("<html>Suas origens remontam aos primórdios do Século XVII, quando requereram e obtiveram por Sesmaria terras situadas na região, os portugueses Francisco Pinheiro do Lago e sua mulher D. Josefa Ferreira de Oliveira, Tomé de Oliveira Chaves e sua mulher, tendo como localização possessória os sítios Santo Amaro e São José, destacando Jerônimo de Freitas Guimarães e sua mulher D. Francisca Pinheiro do Lago.  Desses e outros, vinculados ao mesmo agregamento, nasceu a Vila, mantendo a mesma denominação e a ter como instrumento de criação a Resolução Imperial de 3 de fevereiro de 1823, referendado pelo Alvará de 17 de outubro do mesmo ano. Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.  Em suas manifestações de apoio eclesial consta inicialmente do desdobramento do Curato do Acaraú em quatro Freguesias, conforme Provisão referenciada no ano de 1757 e assinada por D. Francisco Xavier Aranha, do Bispado de Pernambuco. Uma dessas Freguesias teve por sede o reduto de São Bento de Amontada sob cuja jurisdição ficou subordinado o reduto de São José da Uruburetama.  Em 1778, segundo praxe adotada na formação de patrimônios eclesiásticos, Jerônimo Guimarães doou, em favor da recém-desmembrada Freguesia, meia légua de terras, situando-se nesse local o espaço físico onde deveria ser construída a Igreja-Matriz. A transferência de sede da Freguesia, para a Vila de Imperatriz, deu-se segundo Lei nº 364, de 29 de julho de 1846, sendo seu primeiro vigário o padre Luiz Antônio da Rocha Lima, funcionando provisoriamente na capela de Nossa senhora das Mercês.  A Igreja-Matriz, dedicada ao padroado de Nossa Senhora das Mercês, teve como início de obras o ano de 1881 e como responsável Monsenhor Antero José de Lima. Dada a sua evolução eclesiástica, concedeu-se à Paróquia o título de Bispado, não havendo, pelo menos ao nosso alcance, registros que identifiquem a data-início dessa evolução. Evolução política Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.</html>");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
+        painel1.setLayout(painel1Layout);
+        painel1Layout.setHorizontalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1006, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(painel1Layout.createSequentialGroup()
+                        .addComponent(labelImagem, javax.swing.GroupLayout.PREFERRED_SIZE, 1006, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        painel1Layout.setVerticalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(34, 34, 34)
-                .addComponent(jLabel1)
-                .addGap(1, 1, 1)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(labelImagem, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
@@ -137,11 +137,21 @@ public class Tela7 extends javax.swing.JFrame {
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem7);
         menu1.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
@@ -153,10 +163,20 @@ public class Tela7 extends javax.swing.JFrame {
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
         barraMenu.add(menu2);
@@ -170,11 +190,11 @@ public class Tela7 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -223,6 +243,34 @@ public class Tela7 extends javax.swing.JFrame {
         t8.setVisible(true);
     }//GEN-LAST:event_menuItem6ActionPerformed
 
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -256,10 +304,9 @@ public class Tela7 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel labelImagem;
+    private javax.swing.JLabel labelTexto;
+    private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
@@ -274,6 +321,7 @@ public class Tela7 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
+    private javax.swing.JPanel painel1;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

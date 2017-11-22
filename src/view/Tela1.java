@@ -52,6 +52,7 @@ public class Tela1 extends javax.swing.JFrame {
         labelNome.setText("<html>Digite GUIA para iniciar:</html>");
         painel.add(labelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 80, 40));
 
+        campoSenha.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         campoSenha.setToolTipText("Digite a Senha");
         campoSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,9 +72,8 @@ public class Tela1 extends javax.swing.JFrame {
         painel.add(botaoAvanc, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 440, 80, 40));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ita.jpg"))); // NOI18N
-        labelImagem.setText("jLabel1");
-        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 51, 580, 380));
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T1(1).jpg"))); // NOI18N
+        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 51, 590, 380));
 
         labelTitle.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         labelTitle.setForeground(new java.awt.Color(255, 255, 255));
@@ -81,7 +81,7 @@ public class Tela1 extends javax.swing.JFrame {
         labelTitle.setText("GUIA TURÍSTICO - ITAPIPOCA-CE");
         painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 560, 40));
 
-        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 500));
+        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 500));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -144,11 +144,21 @@ public class Tela1 extends javax.swing.JFrame {
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem7);
         menu1.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
@@ -160,10 +170,20 @@ public class Tela1 extends javax.swing.JFrame {
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
         barraMenu.add(menu2);
@@ -260,6 +280,34 @@ public class Tela1 extends javax.swing.JFrame {
         t8.setLocationRelativeTo(null);
         t8.setVisible(true);
     }//GEN-LAST:event_menuItem6ActionPerformed
+
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

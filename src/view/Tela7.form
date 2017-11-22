@@ -90,6 +90,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Ir para Dicionario"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem7ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="separador1">
             </MenuItem>
@@ -100,6 +103,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Avan&#xe7;ar"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem8ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItem9">
               <Properties>
@@ -120,6 +126,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Deixe seu Comentario"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem10ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="separator2">
             </MenuItem>
@@ -127,6 +136,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Relatar Problema"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem11ActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -162,17 +174,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="painel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Component id="painel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
+    <Container class="javax.swing.JPanel" name="painel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="0" type="rgb"/>
@@ -185,10 +197,10 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel2" pref="0" max="32767" attributes="0"/>
-                      <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="labelTexto" pref="0" max="32767" attributes="0"/>
+                      <Component id="labelTitle" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="jLabel4" min="-2" pref="1006" max="-2" attributes="0"/>
+                          <Component id="labelImagem" min="-2" pref="1006" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -199,19 +211,27 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" pref="312" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labelImagem" min="-2" pref="204" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="labelTitle" min="-2" pref="47" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labelTexto" min="-2" pref="275" max="-2" attributes="0"/>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel1">
+        <Component class="javax.swing.JLabel" name="labelImagem">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/T7(1).jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelTitle">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial" size="20" style="1"/>
@@ -223,7 +243,7 @@
             <Property name="text" type="java.lang.String" value="Hist&#xf3;ria de Itapipoca"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="labelTexto">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -233,14 +253,6 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="11"/>
             <Property name="text" type="java.lang.String" value="&lt;html&gt;Suas origens remontam aos prim&#xf3;rdios do S&#xe9;culo XVII, quando requereram e obtiveram por Sesmaria terras situadas na regi&#xe3;o, os portugueses Francisco Pinheiro do Lago e sua mulher D. Josefa Ferreira de Oliveira, Tom&#xe9; de Oliveira Chaves e sua mulher, tendo como localiza&#xe7;&#xe3;o possess&#xf3;ria os s&#xed;tios Santo Amaro e S&#xe3;o Jos&#xe9;, destacando Jer&#xf4;nimo de Freitas Guimar&#xe3;es e sua mulher D. Francisca Pinheiro do Lago.  Desses e outros, vinculados ao mesmo agregamento, nasceu a Vila, mantendo a mesma denomina&#xe7;&#xe3;o e a ter como instrumento de cria&#xe7;&#xe3;o a Resolu&#xe7;&#xe3;o Imperial de 3 de fevereiro de 1823, referendado pelo Alvar&#xe1; de 17 de outubro do mesmo ano. Quando da transfer&#xea;ncia da Vila, para a localiza&#xe7;&#xe3;o atual, com o nome de Imperatriz, atribu&#xed;do conforme Lei Provincial n&#xba; 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudan&#xe7;a de nome, para a denomina&#xe7;&#xe3;o atual. Ocorreu segundo Dec. N&#xba; 1, de 2 de dezembro de 1889. Sua eleva&#xe7;&#xe3;o &#xe0; categoria de Cidade, ocorreu, em virtude de Lei n&#xba; 1.288, de 31 de agosto de 1915.  Em suas manifesta&#xe7;&#xf5;es de apoio eclesial consta inicialmente do desdobramento do Curato do Acara&#xfa; em quatro Freguesias, conforme Provis&#xe3;o referenciada no ano de 1757 e assinada por D. Francisco Xavier Aranha, do Bispado de Pernambuco. Uma dessas Freguesias teve por sede o reduto de S&#xe3;o Bento de Amontada sob cuja jurisdi&#xe7;&#xe3;o ficou subordinado o reduto de S&#xe3;o Jos&#xe9; da Uruburetama.  Em 1778, segundo praxe adotada na forma&#xe7;&#xe3;o de patrim&#xf4;nios eclesi&#xe1;sticos, Jer&#xf4;nimo Guimar&#xe3;es doou, em favor da rec&#xe9;m-desmembrada Freguesia, meia l&#xe9;gua de terras, situando-se nesse local o espa&#xe7;o f&#xed;sico onde deveria ser constru&#xed;da a Igreja-Matriz. A transfer&#xea;ncia de sede da Freguesia, para a Vila de Imperatriz, deu-se segundo Lei n&#xba; 364, de 29 de julho de 1846, sendo seu primeiro vig&#xe1;rio o padre Luiz Ant&#xf4;nio da Rocha Lima, funcionando provisoriamente na capela de Nossa senhora das Merc&#xea;s.  A Igreja-Matriz, dedicada ao padroado de Nossa Senhora das Merc&#xea;s, teve como in&#xed;cio de obras o ano de 1881 e como respons&#xe1;vel Monsenhor Antero Jos&#xe9; de Lima. Dada a sua evolu&#xe7;&#xe3;o eclesi&#xe1;stica, concedeu-se &#xe0; Par&#xf3;quia o t&#xed;tulo de Bispado, n&#xe3;o havendo, pelo menos ao nosso alcance, registros que identifiquem a data-in&#xed;cio dessa evolu&#xe7;&#xe3;o. Evolu&#xe7;&#xe3;o pol&#xed;tica Quando da transfer&#xea;ncia da Vila, para a localiza&#xe7;&#xe3;o atual, com o nome de Imperatriz, atribu&#xed;do conforme Lei Provincial n&#xba; 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudan&#xe7;a de nome, para a denomina&#xe7;&#xe3;o atual. Ocorreu segundo Dec. N&#xba; 1, de 2 de dezembro de 1889. Sua eleva&#xe7;&#xe3;o &#xe0; categoria de Cidade, ocorreu, em virtude de Lei n&#xba; 1.288, de 31 de agosto de 1915.&lt;/html&gt;"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagens/treta.jpg"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="jLabel4"/>
           </Properties>
         </Component>
       </SubComponents>

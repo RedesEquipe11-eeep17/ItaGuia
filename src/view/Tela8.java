@@ -27,9 +27,9 @@ public class Tela8 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        painel1 = new javax.swing.JPanel();
+        labelTitle = new javax.swing.JLabel();
+        labelImagem = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -52,38 +52,38 @@ public class Tela8 extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Mapa de Itapipoca");
+        labelTitle.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("Mapa de Itapipoca");
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Mapa_dos_Distritos_de_Itapipoca.png"))); // NOI18N
+        labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T8(1).png"))); // NOI18N
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
+        painel1.setLayout(painel1Layout);
+        painel1Layout.setHorizontalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE))
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        painel1Layout.setVerticalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(labelImagem)
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 520));
+        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 520));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -146,11 +146,21 @@ public class Tela8 extends javax.swing.JFrame {
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem7);
         menu1.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
@@ -162,10 +172,20 @@ public class Tela8 extends javax.swing.JFrame {
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
         barraMenu.add(menu2);
@@ -221,6 +241,34 @@ public class Tela8 extends javax.swing.JFrame {
         t8.setVisible(true);
     }//GEN-LAST:event_menuItem6ActionPerformed
 
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -258,9 +306,8 @@ public class Tela8 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel labelImagem;
+    private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
@@ -275,6 +322,7 @@ public class Tela8 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
+    private javax.swing.JPanel painel1;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

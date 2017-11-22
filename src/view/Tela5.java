@@ -27,10 +27,10 @@ public class Tela5 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        painel1 = new javax.swing.JPanel();
+        labelTitle = new javax.swing.JLabel();
+        labelTexto = new javax.swing.JLabel();
+        labelImagem = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -52,43 +52,43 @@ public class Tela5 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Festejos da Cidade");
+        labelTitle.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("Festejos da Cidade");
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel2.setText("<html>JANEIRO De 10 a 20 FESTA DE SÃO SEBASTIÃO-PADROEIRO DO MUNICÍPIO Evento Religioso.  Os festejos acontecem em Itapipoca desde 1946. É uma das mais antigas e tradicionais festas religiosas do município. São momentos de oração, devoção em agradecimento ao ano que passou e preces por um ano bom chuvas e muita safra. São dez dias de novenas e termina com uma procissão pelas principais ruas do município em seguida uma missa campal no patamar da igreja.   FEVEREIRO/MARÇO Data móvel CARNAVAL Evento Popular e Folclórico   É uma festa que vem crescendo a cada ano e assumindo grande importância no cenário turístico e cultural de toda região. Os festejos começam na sexta com um baile Tropical realizado nas dependências do Clube AABB. No sábado à noite tem início à folia de rua , que se estende até a terça –feira gorda. No domingo e na terça acontecem os desfiles das escolas, blocos agremiações e maracatus, com premiações para os melhores de cada categoria. Durante o dia os foliões se espalham nos balneários da serra, praia da baleia e no Poço Verde. Com essas atrações, o clima agradável e o povo amigo e hospitaleiro de Itapipoca, fazem do carnaval um grande atrativo.     MAIO DE 25 A 31 FESTIVAL DAS FLORES FESTA DAS FLORES Evento Social/e ou Assistencial   Na última semana de maio acontece a tradicional festa das flores, que reuni toda a sociedade do município, das regiões circunvizinhas e da capital(Fortaleza).Outra ação inovadora realizada Pela SECUTUDE,foi Festival das Flores, transformado em evento âncora, evento representativo do município agregou valores turísticos e culturais a uma das festas mais tradicionais de Itapipoca, com a realização de feiras, exposições, cursos, desfiles, palestras e etc.  AGOSTO DATA MÓVEL EXPOSIÇÃO AGROPECUÁRIA Evento Social/Negócios  Evento que antecede as comemorações alusivas ao aniversário do município.Feira agropecuária, com estandes variados que mostram o que há de mais atual no setor agropecuário. Este grande acontecimento que movimenta as dependências do Parque de Exposições Coronel Hildeberto Barroso,conta também com apresentações culturais, festas dançantes com grandes atrações, quiosques para a venda de bebidas e comidas, grande estacionamento, exposição de animais e muita diversão.  DIA 31 ANIVERSÁRIO DO MUNICÍPIO Evento Cívico  Itapipoca comemora seu aniversário no dia 31 de Agosto com muita alegria e uma programação extensa que envolve toda a comunidade, seja ela da sede ou da zona rural.Com alvorada de fogos, seguida de uma procissão e celebração de uma missa campal no Horto do Cruzeiro. No decorrer do dia, acontecem várias manifestações festivas, como também a inauguração de reformas ou obras realizadas pela prefeitura.  SETEMBRO DE 29 DE AGOSTO A 08 DE SETEMBRO FESTA DE NOSSA SENHORA DAS MERCÊS Evento Religioso Distrito de Arapari   È o mais antigo evento da região. No leilão dessa festa os objetos são doados pela comunidade. No último dia, festa dançante no Clube Social de Arapari. Estima-se a participação de 1.000 pessoas. O grande chamariz é que esta festa acontece no berço de nascimento do município de Itapipoca  DE 14 A 24 FESTA DE NOSSA SENHORA DAS MERCÊS PADROEIRA DE ITAPIPOCA Evento Religioso   Nossa Senhora das Mercês é a padroeira da Catedral, paróquia mais antiga de Itapipoca, iniciada em Vila Velha-Arapari. Em setembro a comunidade reza com os festejos da padroeira local e também diocesana. É uma festa tradicional que envolve todas as paróquias do município, e toda a sociedade em momento de oração, devoção e encontros fraternos construindo caminhos de esperança no abraço da fé. Os bingos acontecem nos finais de semana perto da festa, com a presença da banda de música municipal   NOVEMBRO De 24 a 30 REGATA DA PRAIA DA BALEIA Evento Desportivo Baleia  Itapipoca foi favorecida pela natureza ao possuir três climas (praia, serra, sertão), possui também, uma das mais lindas praias do litoral cearense. Na praia da Baleia, acontece a tradicional regata, festa que oferece prêmios aos melhores navegantes com troféus e valores em dinheiro, e aos visitantes um lindo espetáculo ao ar livre, de cores nas águas cristalinas de um mar puro e manso. Além de comidas típicas nas pousadas da orla marítima, oferece dunas virgens para caminhadas matinais e passeios de bugre.</html>");
+        labelTexto.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        labelTexto.setForeground(new java.awt.Color(255, 255, 255));
+        labelTexto.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        labelTexto.setText("<html>JANEIRO De 10 a 20 FESTA DE SÃO SEBASTIÃO-PADROEIRO DO MUNICÍPIO Evento Religioso.  Os festejos acontecem em Itapipoca desde 1946. É uma das mais antigas e tradicionais festas religiosas do município. São momentos de oração, devoção em agradecimento ao ano que passou e preces por um ano bom chuvas e muita safra. São dez dias de novenas e termina com uma procissão pelas principais ruas do município em seguida uma missa campal no patamar da igreja.   FEVEREIRO/MARÇO Data móvel CARNAVAL Evento Popular e Folclórico   É uma festa que vem crescendo a cada ano e assumindo grande importância no cenário turístico e cultural de toda região. Os festejos começam na sexta com um baile Tropical realizado nas dependências do Clube AABB. No sábado à noite tem início à folia de rua , que se estende até a terça –feira gorda. No domingo e na terça acontecem os desfiles das escolas, blocos agremiações e maracatus, com premiações para os melhores de cada categoria. Durante o dia os foliões se espalham nos balneários da serra, praia da baleia e no Poço Verde. Com essas atrações, o clima agradável e o povo amigo e hospitaleiro de Itapipoca, fazem do carnaval um grande atrativo.     MAIO DE 25 A 31 FESTIVAL DAS FLORES FESTA DAS FLORES Evento Social/e ou Assistencial   Na última semana de maio acontece a tradicional festa das flores, que reuni toda a sociedade do município, das regiões circunvizinhas e da capital(Fortaleza).Outra ação inovadora realizada Pela SECUTUDE,foi Festival das Flores, transformado em evento âncora, evento representativo do município agregou valores turísticos e culturais a uma das festas mais tradicionais de Itapipoca, com a realização de feiras, exposições, cursos, desfiles, palestras e etc.  AGOSTO DATA MÓVEL EXPOSIÇÃO AGROPECUÁRIA Evento Social/Negócios  Evento que antecede as comemorações alusivas ao aniversário do município.Feira agropecuária, com estandes variados que mostram o que há de mais atual no setor agropecuário. Este grande acontecimento que movimenta as dependências do Parque de Exposições Coronel Hildeberto Barroso,conta também com apresentações culturais, festas dançantes com grandes atrações, quiosques para a venda de bebidas e comidas, grande estacionamento, exposição de animais e muita diversão.  DIA 31 ANIVERSÁRIO DO MUNICÍPIO Evento Cívico  Itapipoca comemora seu aniversário no dia 31 de Agosto com muita alegria e uma programação extensa que envolve toda a comunidade, seja ela da sede ou da zona rural.Com alvorada de fogos, seguida de uma procissão e celebração de uma missa campal no Horto do Cruzeiro. No decorrer do dia, acontecem várias manifestações festivas, como também a inauguração de reformas ou obras realizadas pela prefeitura.  SETEMBRO DE 29 DE AGOSTO A 08 DE SETEMBRO FESTA DE NOSSA SENHORA DAS MERCÊS Evento Religioso Distrito de Arapari   È o mais antigo evento da região. No leilão dessa festa os objetos são doados pela comunidade. No último dia, festa dançante no Clube Social de Arapari. Estima-se a participação de 1.000 pessoas. O grande chamariz é que esta festa acontece no berço de nascimento do município de Itapipoca  DE 14 A 24 FESTA DE NOSSA SENHORA DAS MERCÊS PADROEIRA DE ITAPIPOCA Evento Religioso   Nossa Senhora das Mercês é a padroeira da Catedral, paróquia mais antiga de Itapipoca, iniciada em Vila Velha-Arapari. Em setembro a comunidade reza com os festejos da padroeira local e também diocesana. É uma festa tradicional que envolve todas as paróquias do município, e toda a sociedade em momento de oração, devoção e encontros fraternos construindo caminhos de esperança no abraço da fé. Os bingos acontecem nos finais de semana perto da festa, com a presença da banda de música municipal   NOVEMBRO De 24 a 30 REGATA DA PRAIA DA BALEIA Evento Desportivo Baleia  Itapipoca foi favorecida pela natureza ao possuir três climas (praia, serra, sertão), possui também, uma das mais lindas praias do litoral cearense. Na praia da Baleia, acontece a tradicional regata, festa que oferece prêmios aos melhores navegantes com troféus e valores em dinheiro, e aos visitantes um lindo espetáculo ao ar livre, de cores nas águas cristalinas de um mar puro e manso. Além de comidas típicas nas pousadas da orla marítima, oferece dunas virgens para caminhadas matinais e passeios de bugre.</html>");
 
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/quem perguntou.jpg"))); // NOI18N
+        labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T5(1).jpg"))); // NOI18N
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
+        painel1.setLayout(painel1Layout);
+        painel1Layout.setHorizontalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 957, Short.MAX_VALUE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(painel1Layout.createSequentialGroup()
+                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 957, Short.MAX_VALUE)
+                            .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+        painel1Layout.setVerticalGroup(
+            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painel1Layout.createSequentialGroup()
+                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
+                .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
                 .addGap(23, 23, 23))
         );
 
@@ -153,11 +153,21 @@ public class Tela5 extends javax.swing.JFrame {
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
+        menuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem7ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem7);
         menu1.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
+        menuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem8ActionPerformed(evt);
+            }
+        });
         menu1.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
@@ -169,10 +179,20 @@ public class Tela5 extends javax.swing.JFrame {
         menu2.setText("Ajuda");
 
         menuItem10.setText("Deixe seu Comentario");
+        menuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem10ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem10);
         menu2.add(separator2);
 
         menuItem11.setText("Relatar Problema");
+        menuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem11ActionPerformed(evt);
+            }
+        });
         menu2.add(menuItem11);
 
         barraMenu.add(menu2);
@@ -186,11 +206,11 @@ public class Tela5 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -239,6 +259,34 @@ public class Tela5 extends javax.swing.JFrame {
         t8.setVisible(true);
     }//GEN-LAST:event_menuItem6ActionPerformed
 
+    private void menuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem7ActionPerformed
+        this.dispose();
+        Tela9 t9 = new Tela9();
+        t9.setLocationRelativeTo(null);
+        t9.setVisible(true);
+    }//GEN-LAST:event_menuItem7ActionPerformed
+
+    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
+        this.dispose();
+        Tela3 t3a = new Tela3();
+        t3a.setLocationRelativeTo(null);
+        t3a.setVisible(true);
+    }//GEN-LAST:event_menuItem8ActionPerformed
+
+    private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
+        this.dispose();
+        Tela9a t9a = new Tela9a();
+        t9a.setLocationRelativeTo(null);
+        t9a.setVisible(true);
+    }//GEN-LAST:event_menuItem10ActionPerformed
+
+    private void menuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem11ActionPerformed
+        this.dispose();
+        Tela9b t9b = new Tela9b();
+        t9b.setLocationRelativeTo(null);
+        t9b.setVisible(true);
+    }//GEN-LAST:event_menuItem11ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -279,10 +327,9 @@ public class Tela5 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel labelImagem;
+    private javax.swing.JLabel labelTexto;
+    private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
@@ -297,6 +344,7 @@ public class Tela5 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
+    private javax.swing.JPanel painel1;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

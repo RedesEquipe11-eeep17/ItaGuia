@@ -90,6 +90,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Ir para Dicionario"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem7ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="separador1">
             </MenuItem>
@@ -100,6 +103,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Avan&#xe7;ar"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem8ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItem9">
               <Properties>
@@ -120,6 +126,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Deixe seu Comentario"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem10ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="separator2">
             </MenuItem>
@@ -127,6 +136,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Relatar Problema"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem11ActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -140,11 +152,12 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="barraMenu"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -156,7 +169,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,40,0,0,2,3"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,40,0,0,2,0"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -187,6 +200,13 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="413" max="32767" attributes="0"/>
+                      <Component id="botaoReturn" min="-2" pref="87" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -197,8 +217,15 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="197" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jLabel3" pref="228" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="164" max="-2" attributes="0"/>
+                  <EmptySpace pref="75" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="487" max="32767" attributes="0"/>
+                      <Component id="botaoReturn" min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
           </Group>
         </DimensionLayout>
@@ -220,7 +247,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagens/praia da baleia.jpg"/>
+              <Image iconType="3" name="/imagens/T4f(1).jpg"/>
             </Property>
           </Properties>
         </Component>
@@ -234,6 +261,14 @@
             </Property>
             <Property name="text" type="java.lang.String" value="&lt;html&gt;Baleia est&#xe1; localizada na terra dos tr&#xea;s climas, no munic&#xed;pio de Itapipoca,&#xa;e fica a apenas a 168 km ao oeste de fortaleza. &#xc9; conhecida por suas &#xa;praias com grande voca&#xe7;&#xe3;o para o turismo, Baleia comp&#xf5;e o cen&#xe1;rio de &#xa;coqueirais, dunas, lagoas, lagos, jangadas, rios e p&#xf4;r-do-sol. Sua&#xa;paisagem &#xfa;nica e exuberante oferece ao turista as impetuosidades&#xa;dos ventos e do sol, comuns no litoral e que excedem na praia da baleia.&#xa;Para satisfazer os mais exigentes goumeres, temos card&#xe1;pios variados&#xa;que v&#xe3;o desde a pizza e massas italianas &#xe0; diversidades de pratos a&#xa;base de frutos do mar, seus restaurantes t&#xea;m como destaque especial&#xa;o peixe fresquinho, pescado na &#x201c;riscas&#x201d;(as poucas milhas da praia)&#xa;entre eles o ariac&#xf3; de carne tenra e saborosas .&lt;/html&gt;"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="botaoReturn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Retornar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoReturnActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
