@@ -50,7 +50,7 @@ public class Tela4d extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("<html>Canoa é uma das serras que rodeiam a cidade de Itapipoca.\nDotada de clima e vegetação peculiar, a serra se destaca\npor sua grande beleza, tornando-a propícia para a prática do\necoturismo. O seu atrativo turístico principal é um monólito\nchamado “Pedra do Itapicu”, o mesmo é visitado por\naventureiros que buscam maior contato com a natureza.\nNa sua vegetação existem resquícios da mata atlântica,\nbasicamente formada por árvores de grande porte.</html>");
+        jLabel3.setText("<html><p align=\"justify\">Canoa é uma das serras que rodeiam a cidade de Itapipoca.\nDotada de clima e vegetação peculiar, a serra se destaca\npor sua grande beleza, tornando-a propícia para a prática do\necoturismo. O seu atrativo turístico principal é um monólito\nchamado “Pedra do Itapicu”, o mesmo é visitado por\naventureiros que buscam maior contato com a natureza.\nNa sua vegetação existem resquícios da mata atlântica,\nbasicamente formada por árvores de grande porte.</p></html>");
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4d(2).jpg"))); // NOI18N

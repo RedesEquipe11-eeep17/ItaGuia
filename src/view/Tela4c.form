@@ -259,7 +259,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;Entenda os prim&#xf3;rdios da terra dos tr&#xea;s climas.&#xa;O ber&#xe7;o do centro da cidade &#xe9; a igreja da matriz&#xa;(Nossa Senhora das Merc&#xea;s) constru&#xed;da por Frei&#xa;Cassiano (1887-1890) com a ajuda de Monsenhor&#xa;Antero de Lima e Caio Prado (ent&#xe3;o governador &#xa;da prov&#xed;ncia). A igreja guarda em sua arquitetura&#xa; tra&#xe7;os da belle &#xe9;poque, trazida da Fran&#xe7;a no &#xa;per&#xed;odo parnasianista. A edifica&#xe7;&#xe3;o caracteriza-se&#xa;por marcar o in&#xed;cio do povoamento do centro da cidade.&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;Entenda os prim&#xf3;rdios da terra dos tr&#xea;s climas.&#xa;O ber&#xe7;o do centro da cidade &#xe9; a igreja da matriz&#xa;(Nossa Senhora das Merc&#xea;s) constru&#xed;da por Frei&#xa;Cassiano (1887-1890) com a ajuda de Monsenhor&#xa;Antero de Lima e Caio Prado (ent&#xe3;o governador &#xa;da prov&#xed;ncia). A igreja guarda em sua arquitetura&#xa; tra&#xe7;os da belle &#xe9;poque, trazida da Fran&#xe7;a no &#xa;per&#xed;odo parnasianista. A edifica&#xe7;&#xe3;o caracteriza-se&#xa;por marcar o in&#xed;cio do povoamento do centro da cidade.&lt;/p&gt;&lt;/html&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="botaoReturn">

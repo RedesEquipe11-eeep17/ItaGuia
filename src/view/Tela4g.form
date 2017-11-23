@@ -217,8 +217,8 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="141" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="76" max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="151" max="-2" attributes="0"/>
+                  <EmptySpace pref="60" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
@@ -259,7 +259,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;Antes uma lagoa, a pra&#xe7;a dos tr&#xea;s climas,&#xa;localizada no centro de Itapipoca, &#xe9; uma&#xa;das pra&#xe7;as mais importantes da cidade.&#xa;Fazendo uma alus&#xe3;o aos tr&#xea;s climas da&#xa;cidade, na pra&#xe7;a encontra-se uma grande&#xa;pedra, representando a pedra ferrada,&#xa;que se localiza na parte serrana da regi&#xe3;o.&#xa;Em seguida &#xe9; poss&#xed;vel ver barcos e&#xa;pescadores empurrando o mesmo, o que&#xa;siimboliza o nosso litoral, t&#xe3;o rico em&#xa;beleza peculiar e em atrativos naturais.&#xa;Adiantetem-se um vaqueiro montado&#xa;em seu cavalo,o que vem a representar&#xa;o nosso sert&#xe3;o,caracter&#xed;stico por forte &#xa;calor do sol e o frio da noite.&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;Antes uma lagoa, a pra&#xe7;a dos tr&#xea;s climas,&#xa;localizada no centro de Itapipoca, &#xe9; uma&#xa;das pra&#xe7;as mais importantes da cidade.&#xa;Fazendo uma alus&#xe3;o aos tr&#xea;s climas da&#xa;cidade, na pra&#xe7;a encontra-se uma grande&#xa;pedra, representando a pedra ferrada,&#xa;que se localiza na parte serrana da regi&#xe3;o.&#xa;Em seguida &#xe9; poss&#xed;vel ver barcos e&#xa;pescadores empurrando o mesmo, o que&#xa;siimboliza o nosso litoral, t&#xe3;o rico em&#xa;beleza peculiar e em atrativos naturais.&#xa;Adiantetem-se um vaqueiro montado&#xa;em seu cavalo,o que vem a representar&#xa;o nosso sert&#xe3;o,caracter&#xed;stico por forte &#xa;calor do sol e o frio da noite.&lt;/p&gt;&lt;/html&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="botaoReturn">

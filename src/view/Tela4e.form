@@ -264,7 +264,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;O Horto do Santo Cruzeiro foi&#xa;inaugurado em 1933, e&#xa;simboliza um grande&#xa;monumento para o munic&#xed;pio.&#xa;No Horto voc&#xea; encontrar&#xe1; uma&#xa;est&#xe1;tua de S&#xe3;o Sebasti&#xe3;o,&#xa;padroeiro da cidade, que foi&#xa;inaugurada em 1977 e doada&#xa;ao munic&#xed;pio por Jos&#xe9; de&#xa;Pontes Neto, filho da cidade,&#xa;e por Pe. Lu&#xed;s Gonzaga Xavier.&#xa;Do Horto voc&#xea; pode ver a sede&#xa;de Itapipoca em seus 360&#xb0;,&#xa;l&#xe1; voc&#xea; encontrar&#xe1; uma&#xa;tranquilidade que lhe permitir&#xe1;&#xa;um pleno e duradouro&#xa;momento de reflex&#xe3;o.&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;O Horto do Santo Cruzeiro foi&#xa;inaugurado em 1933, e&#xa;simboliza um grande&#xa;monumento para o munic&#xed;pio.&#xa;No Horto voc&#xea; encontrar&#xe1; uma&#xa;est&#xe1;tua de S&#xe3;o Sebasti&#xe3;o,&#xa;padroeiro da cidade, que foi&#xa;inaugurada em 1977 e doada&#xa;ao munic&#xed;pio por Jos&#xe9; de&#xa;Pontes Neto, filho da cidade,&#xa;e por Pe. Lu&#xed;s Gonzaga Xavier.&#xa;Do Horto voc&#xea; pode ver a sede&#xa;de Itapipoca em seus 360&#xb0;,&#xa;l&#xe1; voc&#xea; encontrar&#xe1; uma&#xa;tranquilidade que lhe permitir&#xe1;&#xa;um pleno e duradouro&#xa;momento de reflex&#xe3;o.&lt;/p&gt;&lt;/html&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="botaoReturn">

@@ -268,7 +268,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;Canoa &#xe9; uma das serras que rodeiam a cidade de Itapipoca.&#xa;Dotada de clima e vegeta&#xe7;&#xe3;o peculiar, a serra se destaca&#xa;por sua grande beleza, tornando-a prop&#xed;cia para a pr&#xe1;tica do&#xa;ecoturismo. O seu atrativo tur&#xed;stico principal &#xe9; um mon&#xf3;lito&#xa;chamado &#x201c;Pedra do Itapicu&#x201d;, o mesmo &#xe9; visitado por&#xa;aventureiros que buscam maior contato com a natureza.&#xa;Na sua vegeta&#xe7;&#xe3;o existem resqu&#xed;cios da mata atl&#xe2;ntica,&#xa;basicamente formada por &#xe1;rvores de grande porte.&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;Canoa &#xe9; uma das serras que rodeiam a cidade de Itapipoca.&#xa;Dotada de clima e vegeta&#xe7;&#xe3;o peculiar, a serra se destaca&#xa;por sua grande beleza, tornando-a prop&#xed;cia para a pr&#xe1;tica do&#xa;ecoturismo. O seu atrativo tur&#xed;stico principal &#xe9; um mon&#xf3;lito&#xa;chamado &#x201c;Pedra do Itapicu&#x201d;, o mesmo &#xe9; visitado por&#xa;aventureiros que buscam maior contato com a natureza.&#xa;Na sua vegeta&#xe7;&#xe3;o existem resqu&#xed;cios da mata atl&#xe2;ntica,&#xa;basicamente formada por &#xe1;rvores de grande porte.&lt;/p&gt;&lt;/html&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">

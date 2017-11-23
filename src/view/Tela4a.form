@@ -244,7 +244,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;Localizada na parte serrana, distrito de Arapari, foi constru&#xed;da em &#xa;1772. A igreja ainda tem tra&#xe7;os da &#xe9;poca, e conta com &#xa;arquitetura barroca sendo um dos monumentos mais velhos da &#xa;cidade e contando a historia dos primeiros habitantes da &#xa;cidade, como a do &#x201c;criador do munic&#xed;pio&#x201d; senhor &#xa;Jer&#xf4;nimo de Freitas Guimar&#xe3;es. De l&#xe1;, tem-se uma &#xa;bela vista, sendo poss&#xed;vel uma vis&#xe3;o geral da &#xa;parte serrana da cidade dos tr&#xea;s climas.&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;Localizada na parte serrana, distrito de Arapari, foi constru&#xed;da em &#xa;1772. A igreja ainda tem tra&#xe7;os da &#xe9;poca, e conta com &#xa;arquitetura barroca sendo um dos monumentos mais velhos da &#xa;cidade e contando a historia dos primeiros habitantes da &#xa;cidade, como a do &#x201c;criador do munic&#xed;pio&#x201d; senhor &#xa;Jer&#xf4;nimo de Freitas Guimar&#xe3;es. De l&#xe1;, tem-se uma &#xa;bela vista, sendo poss&#xed;vel uma vis&#xe3;o geral da &#xa;parte serrana da cidade dos tr&#xea;s climas.&lt;/p&gt;&lt;/html&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="labelImagem">

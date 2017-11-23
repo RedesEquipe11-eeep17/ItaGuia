@@ -38,6 +38,7 @@ public class Tela1 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -46,10 +47,10 @@ public class Tela1 extends javax.swing.JFrame {
         painel.setBackground(new java.awt.Color(0, 0, 0));
         painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        labelNome.setFont(new java.awt.Font("Arial", 1, 13)); // NOI18N
+        labelNome.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         labelNome.setForeground(new java.awt.Color(255, 255, 255));
         labelNome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelNome.setText("<html>Digite GUIA para iniciar:</html>");
+        labelNome.setText("<html>Senha:</html>");
         painel.add(labelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 80, 40));
 
         campoSenha.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -79,7 +80,7 @@ public class Tela1 extends javax.swing.JFrame {
         labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("GUIA TURÍSTICO - ITAPIPOCA-CE");
-        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 560, 40));
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 570, 40));
 
         getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 500));
 
@@ -189,6 +190,10 @@ public class Tela1 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        jMenuItem1.setText("Com que intuito foi feito esse software?");
+        menu3.add(jMenuItem1);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -344,6 +349,7 @@ public class Tela1 extends javax.swing.JFrame {
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JButton botaoAvanc;
     private javax.swing.JPasswordField campoSenha;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JLabel labelImagem;
     private javax.swing.JLabel labelNome;
     private javax.swing.JLabel labelTitle;

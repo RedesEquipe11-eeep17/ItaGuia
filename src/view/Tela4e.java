@@ -66,7 +66,7 @@ public class Tela4e extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("<html>O Horto do Santo Cruzeiro foi\ninaugurado em 1933, e\nsimboliza um grande\nmonumento para o município.\nNo Horto você encontrará uma\nestátua de São Sebastião,\npadroeiro da cidade, que foi\ninaugurada em 1977 e doada\nao município por José de\nPontes Neto, filho da cidade,\ne por Pe. Luís Gonzaga Xavier.\nDo Horto você pode ver a sede\nde Itapipoca em seus 360°,\nlá você encontrará uma\ntranquilidade que lhe permitirá\num pleno e duradouro\nmomento de reflexão.</html>");
+        jLabel3.setText("<html><p align=\"justify\">O Horto do Santo Cruzeiro foi\ninaugurado em 1933, e\nsimboliza um grande\nmonumento para o município.\nNo Horto você encontrará uma\nestátua de São Sebastião,\npadroeiro da cidade, que foi\ninaugurada em 1977 e doada\nao município por José de\nPontes Neto, filho da cidade,\ne por Pe. Luís Gonzaga Xavier.\nDo Horto você pode ver a sede\nde Itapipoca em seus 360°,\nlá você encontrará uma\ntranquilidade que lhe permitirá\num pleno e duradouro\nmomento de reflexão.</p></html>");
 
         botaoReturn.setText("Retornar");
         botaoReturn.addActionListener(new java.awt.event.ActionListener() {

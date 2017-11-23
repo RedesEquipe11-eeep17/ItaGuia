@@ -66,7 +66,7 @@ public class Tela4c extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("<html>Entenda os primórdios da terra dos três climas.\nO berço do centro da cidade é a igreja da matriz\n(Nossa Senhora das Mercês) construída por Frei\nCassiano (1887-1890) com a ajuda de Monsenhor\nAntero de Lima e Caio Prado (então governador \nda província). A igreja guarda em sua arquitetura\n traços da belle époque, trazida da França no \nperíodo parnasianista. A edificação caracteriza-se\npor marcar o início do povoamento do centro da cidade.</html>");
+        jLabel3.setText("<html><p align=\"justify\">Entenda os primórdios da terra dos três climas.\nO berço do centro da cidade é a igreja da matriz\n(Nossa Senhora das Mercês) construída por Frei\nCassiano (1887-1890) com a ajuda de Monsenhor\nAntero de Lima e Caio Prado (então governador \nda província). A igreja guarda em sua arquitetura\n traços da belle époque, trazida da França no \nperíodo parnasianista. A edificação caracteriza-se\npor marcar o início do povoamento do centro da cidade.</p></html>");
 
         botaoReturn.setText("Retornar");
         botaoReturn.addActionListener(new java.awt.event.ActionListener() {

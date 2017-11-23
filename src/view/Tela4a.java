@@ -63,7 +63,7 @@ public class Tela4a extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("<html>Localizada na parte serrana, distrito de Arapari, foi construída em \n1772. A igreja ainda tem traços da época, e conta com \narquitetura barroca sendo um dos monumentos mais velhos da \ncidade e contando a historia dos primeiros habitantes da \ncidade, como a do “criador do município” senhor \nJerônimo de Freitas Guimarães. De lá, tem-se uma \nbela vista, sendo possível uma visão geral da \nparte serrana da cidade dos três climas.</html>");
+        jLabel2.setText("<html><p align=\"justify\">Localizada na parte serrana, distrito de Arapari, foi construída em \n1772. A igreja ainda tem traços da época, e conta com \narquitetura barroca sendo um dos monumentos mais velhos da \ncidade e contando a historia dos primeiros habitantes da \ncidade, como a do “criador do município” senhor \nJerônimo de Freitas Guimarães. De lá, tem-se uma \nbela vista, sendo possível uma visão geral da \nparte serrana da cidade dos três climas.</p></html>");
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4a(1).jpg"))); // NOI18N

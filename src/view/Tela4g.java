@@ -66,7 +66,7 @@ public class Tela4g extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("<html>Antes uma lagoa, a praça dos três climas,\nlocalizada no centro de Itapipoca, é uma\ndas praças mais importantes da cidade.\nFazendo uma alusão aos três climas da\ncidade, na praça encontra-se uma grande\npedra, representando a pedra ferrada,\nque se localiza na parte serrana da região.\nEm seguida é possível ver barcos e\npescadores empurrando o mesmo, o que\nsiimboliza o nosso litoral, tão rico em\nbeleza peculiar e em atrativos naturais.\nAdiantetem-se um vaqueiro montado\nem seu cavalo,o que vem a representar\no nosso sertão,característico por forte \ncalor do sol e o frio da noite.</html>");
+        jLabel3.setText("<html><p align=\"justify\">Antes uma lagoa, a praça dos três climas,\nlocalizada no centro de Itapipoca, é uma\ndas praças mais importantes da cidade.\nFazendo uma alusão aos três climas da\ncidade, na praça encontra-se uma grande\npedra, representando a pedra ferrada,\nque se localiza na parte serrana da região.\nEm seguida é possível ver barcos e\npescadores empurrando o mesmo, o que\nsiimboliza o nosso litoral, tão rico em\nbeleza peculiar e em atrativos naturais.\nAdiantetem-se um vaqueiro montado\nem seu cavalo,o que vem a representar\no nosso sertão,característico por forte \ncalor do sol e o frio da noite.</p></html>");
 
         botaoReturn.setText("Retornar");
         botaoReturn.addActionListener(new java.awt.event.ActionListener() {
@@ -100,8 +100,8 @@ public class Tela4g extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(60, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                     .addContainerGap(405, Short.MAX_VALUE)

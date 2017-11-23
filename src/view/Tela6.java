@@ -10,14 +10,15 @@ public class Tela6 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        telaScroll = new javax.swing.JScrollPane();
         painel1 = new javax.swing.JPanel();
         labelTitle = new javax.swing.JLabel();
         labelImagem1 = new javax.swing.JLabel();
-        labelImagem2 = new javax.swing.JLabel();
-        labelImagem3 = new javax.swing.JLabel();
-        labelImagem4 = new javax.swing.JLabel();
-        labelImagem5 = new javax.swing.JLabel();
-        labelImagem6 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -48,21 +49,24 @@ public class Tela6 extends javax.swing.JFrame {
 
         labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(1).jpg"))); // NOI18N
+        labelImagem1.setPreferredSize(null);
 
-        labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(2).jpg"))); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(2).jpg"))); // NOI18N
 
-        labelImagem3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(3).jpg"))); // NOI18N
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(3).jpg"))); // NOI18N
+        jLabel2.setMaximumSize(new java.awt.Dimension(300, 225));
+        jLabel2.setMinimumSize(new java.awt.Dimension(300, 225));
 
-        labelImagem4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(4).jpg"))); // NOI18N
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(4).jpg"))); // NOI18N
 
-        labelImagem5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(5).jpg"))); // NOI18N
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(5).jpg"))); // NOI18N
 
-        labelImagem6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(6).jpg"))); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(6).jpg"))); // NOI18N
 
         javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
         painel1.setLayout(painel1Layout);
@@ -71,21 +75,22 @@ public class Tela6 extends javax.swing.JFrame {
             .addGroup(painel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel1Layout.createSequentialGroup()
-                        .addComponent(labelImagem1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(labelImagem2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelImagem3))
+                    .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 774, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(painel1Layout.createSequentialGroup()
-                        .addComponent(labelImagem4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(labelImagem5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelImagem6)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(painel1Layout.createSequentialGroup()
+                                .addComponent(labelImagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 390, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(painel1Layout.createSequentialGroup()
+                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 402, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(18, 18, 18)
+                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addGap(0, 56, Short.MAX_VALUE))
         );
         painel1Layout.setVerticalGroup(
             painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -93,22 +98,20 @@ public class Tela6 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(labelImagem2)
-                    .addComponent(labelImagem3)
-                    .addComponent(labelImagem1))
                 .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addGap(18, 18, Short.MAX_VALUE)
-                        .addComponent(labelImagem4, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(26, 26, 26))
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(labelImagem6, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(labelImagem5))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(labelImagem1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(28, 28, 28)
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addContainerGap(414, Short.MAX_VALUE))
         );
+
+        telaScroll.setViewportView(painel1);
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -224,11 +227,11 @@ public class Tela6 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(telaScroll, javax.swing.GroupLayout.DEFAULT_SIZE, 1131, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(telaScroll, javax.swing.GroupLayout.PREFERRED_SIZE, 860, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -338,12 +341,12 @@ public class Tela6 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel labelImagem1;
-    private javax.swing.JLabel labelImagem2;
-    private javax.swing.JLabel labelImagem3;
-    private javax.swing.JLabel labelImagem4;
-    private javax.swing.JLabel labelImagem5;
-    private javax.swing.JLabel labelImagem6;
     private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
@@ -362,5 +365,6 @@ public class Tela6 extends javax.swing.JFrame {
     private javax.swing.JPanel painel1;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
+    private javax.swing.JScrollPane telaScroll;
     // End of variables declaration//GEN-END:variables
 }
