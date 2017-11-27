@@ -10,15 +10,14 @@ public class Tela6 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        telaScroll = new javax.swing.JScrollPane();
         painel1 = new javax.swing.JPanel();
         labelTitle = new javax.swing.JLabel();
         labelImagem1 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        labelImagem2 = new javax.swing.JLabel();
+        labelImagem3 = new javax.swing.JLabel();
+        labelImagem4 = new javax.swing.JLabel();
+        labelImagem5 = new javax.swing.JLabel();
+        labelImagem6 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -36,82 +35,99 @@ public class Tela6 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        painel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel1.setBackground(new java.awt.Color(153, 153, 153));
+        painel1.setPreferredSize(new java.awt.Dimension(600, 500));
 
         labelTitle.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelTitle.setText("Fotos de Itapipoca");
+        labelTitle.setText("Fotos da Cidade");
 
+        labelImagem1.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(1).jpg"))); // NOI18N
-        labelImagem1.setPreferredSize(null);
+        labelImagem1.setAutoscrolls(true);
+        labelImagem1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja São Sebastiao", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(2).jpg"))); // NOI18N
+        labelImagem2.setBackground(new java.awt.Color(153, 153, 153));
+        labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(2).jpg"))); // NOI18N
+        labelImagem2.setAutoscrolls(true);
+        labelImagem2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praça Três Climas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(3).jpg"))); // NOI18N
-        jLabel2.setMaximumSize(new java.awt.Dimension(300, 225));
-        jLabel2.setMinimumSize(new java.awt.Dimension(300, 225));
+        labelImagem3.setBackground(new java.awt.Color(153, 153, 153));
+        labelImagem3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(3).jpg"))); // NOI18N
+        labelImagem3.setAutoscrolls(true);
+        labelImagem3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praça três Climas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(4).jpg"))); // NOI18N
+        labelImagem4.setBackground(new java.awt.Color(153, 153, 153));
+        labelImagem4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(4).jpg"))); // NOI18N
+        labelImagem4.setAutoscrolls(true);
+        labelImagem4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja da Matriz", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(5).jpg"))); // NOI18N
+        labelImagem5.setBackground(new java.awt.Color(153, 153, 153));
+        labelImagem5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(5).jpg"))); // NOI18N
+        labelImagem5.setAutoscrolls(true);
+        labelImagem5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Ruas do Cruzeiro", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(6).jpg"))); // NOI18N
+        labelImagem6.setBackground(new java.awt.Color(153, 153, 153));
+        labelImagem6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(6).jpg"))); // NOI18N
+        labelImagem6.setAutoscrolls(true);
+        labelImagem6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Torre dos Picos", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
 
         javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
         painel1.setLayout(painel1Layout);
         painel1Layout.setHorizontalGroup(
             painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(painel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 774, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(painel1Layout.createSequentialGroup()
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel1Layout.createSequentialGroup()
+                                .addComponent(labelImagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
                             .addGroup(painel1Layout.createSequentialGroup()
-                                .addComponent(labelImagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 390, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(painel1Layout.createSequentialGroup()
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 402, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(labelImagem4, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)))
+                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(labelImagem5, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
+                            .addComponent(labelImagem2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addGap(0, 56, Short.MAX_VALUE))
+                            .addComponent(labelImagem3, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
+                            .addComponent(labelImagem6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         painel1Layout.setVerticalGroup(
             painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(painel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(6, 6, 6)
+                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(labelImagem1, javax.swing.GroupLayout.DEFAULT_SIZE, 285, Short.MAX_VALUE)
+                    .addComponent(labelImagem2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelImagem3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(labelImagem1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(28, 28, 28)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                .addContainerGap(414, Short.MAX_VALUE))
+                    .addComponent(labelImagem4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelImagem5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelImagem6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
-        telaScroll.setViewportView(painel1);
+        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 630));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -199,6 +215,7 @@ public class Tela6 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -208,6 +225,7 @@ public class Tela6 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -219,20 +237,19 @@ public class Tela6 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(telaScroll, javax.swing.GroupLayout.DEFAULT_SIZE, 1131, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(telaScroll, javax.swing.GroupLayout.PREFERRED_SIZE, 860, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
 
         pack();
         setLocationRelativeTo(null);
@@ -308,6 +325,16 @@ public class Tela6 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -332,6 +359,7 @@ public class Tela6 extends javax.swing.JFrame {
         }
         //</editor-fold>
 
+        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Tela6().setVisible(true);
@@ -341,12 +369,12 @@ public class Tela6 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel labelImagem1;
+    private javax.swing.JLabel labelImagem2;
+    private javax.swing.JLabel labelImagem3;
+    private javax.swing.JLabel labelImagem4;
+    private javax.swing.JLabel labelImagem5;
+    private javax.swing.JLabel labelImagem6;
     private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
@@ -354,6 +382,7 @@ public class Tela6 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
@@ -365,6 +394,5 @@ public class Tela6 extends javax.swing.JFrame {
     private javax.swing.JPanel painel1;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
-    private javax.swing.JScrollPane telaScroll;
     // End of variables declaration//GEN-END:variables
 }

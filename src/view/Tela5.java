@@ -27,13 +27,13 @@ public class Tela5 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        painel1 = new javax.swing.JPanel();
+        painel = new javax.swing.JPanel();
         labelTitle = new javax.swing.JLabel();
         labelTexto = new javax.swing.JLabel();
         labelImagem = new javax.swing.JLabel();
-        barraMenu = new javax.swing.JMenuBar();
-        menu1 = new javax.swing.JMenu();
-        menuItem1 = new javax.swing.JMenuItem();
+        barraMenu2 = new javax.swing.JMenuBar();
+        menu5 = new javax.swing.JMenu();
+        menuItem13 = new javax.swing.JMenuItem();
         menuItem2 = new javax.swing.JMenuItem();
         menuItem3 = new javax.swing.JMenuItem();
         menuItem4 = new javax.swing.JMenuItem();
@@ -48,63 +48,45 @@ public class Tela5 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem14 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        painel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel.setBackground(new java.awt.Color(153, 153, 153));
+        painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         labelTitle.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("Festejos da Cidade");
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 12, 960, 40));
 
-        labelTexto.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        labelTexto.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         labelTexto.setForeground(new java.awt.Color(255, 255, 255));
         labelTexto.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         labelTexto.setText("<html><p align=\"justify\">JANEIRO De 10 a 20 FESTA DE SÃO SEBASTIÃO-PADROEIRO DO MUNICÍPIO Evento Religioso.  Os festejos acontecem em Itapipoca desde 1946. É uma das mais antigas e tradicionais festas religiosas do município. São momentos de oração, devoção em agradecimento ao ano que passou e preces por um ano bom chuvas e muita safra. São dez dias de novenas e termina com uma procissão pelas principais ruas do município em seguida uma missa campal no patamar da igreja.   FEVEREIRO/MARÇO Data móvel CARNAVAL Evento Popular e Folclórico   É uma festa que vem crescendo a cada ano e assumindo grande importância no cenário turístico e cultural de toda região. Os festejos começam na sexta com um baile Tropical realizado nas dependências do Clube AABB. No sábado à noite tem início à folia de rua , que se estende até a terça –feira gorda. No domingo e na terça acontecem os desfiles das escolas, blocos agremiações e maracatus, com premiações para os melhores de cada categoria. Durante o dia os foliões se espalham nos balneários da serra, praia da baleia e no Poço Verde. Com essas atrações, o clima agradável e o povo amigo e hospitaleiro de Itapipoca, fazem do carnaval um grande atrativo.     MAIO DE 25 A 31 FESTIVAL DAS FLORES FESTA DAS FLORES Evento Social/e ou Assistencial   Na última semana de maio acontece a tradicional festa das flores, que reuni toda a sociedade do município, das regiões circunvizinhas e da capital(Fortaleza).Outra ação inovadora realizada Pela SECUTUDE,foi Festival das Flores, transformado em evento âncora, evento representativo do município agregou valores turísticos e culturais a uma das festas mais tradicionais de Itapipoca, com a realização de feiras, exposições, cursos, desfiles, palestras e etc.  AGOSTO DATA MÓVEL EXPOSIÇÃO AGROPECUÁRIA Evento Social/Negócios  Evento que antecede as comemorações alusivas ao aniversário do município.Feira agropecuária, com estandes variados que mostram o que há de mais atual no setor agropecuário. Este grande acontecimento que movimenta as dependências do Parque de Exposições Coronel Hildeberto Barroso,conta também com apresentações culturais, festas dançantes com grandes atrações, quiosques para a venda de bebidas e comidas, grande estacionamento, exposição de animais e muita diversão.  DIA 31 ANIVERSÁRIO DO MUNICÍPIO Evento Cívico  Itapipoca comemora seu aniversário no dia 31 de Agosto com muita alegria e uma programação extensa que envolve toda a comunidade, seja ela da sede ou da zona rural.Com alvorada de fogos, seguida de uma procissão e celebração de uma missa campal no Horto do Cruzeiro. No decorrer do dia, acontecem várias manifestações festivas, como também a inauguração de reformas ou obras realizadas pela prefeitura.  SETEMBRO DE 29 DE AGOSTO A 08 DE SETEMBRO FESTA DE NOSSA SENHORA DAS MERCÊS Evento Religioso Distrito de Arapari   È o mais antigo evento da região. No leilão dessa festa os objetos são doados pela comunidade. No último dia, festa dançante no Clube Social de Arapari. Estima-se a participação de 1.000 pessoas. O grande chamariz é que esta festa acontece no berço de nascimento do município de Itapipoca  DE 14 A 24 FESTA DE NOSSA SENHORA DAS MERCÊS PADROEIRA DE ITAPIPOCA Evento Religioso   Nossa Senhora das Mercês é a padroeira da Catedral, paróquia mais antiga de Itapipoca, iniciada em Vila Velha-Arapari. Em setembro a comunidade reza com os festejos da padroeira local e também diocesana. É uma festa tradicional que envolve todas as paróquias do município, e toda a sociedade em momento de oração, devoção e encontros fraternos construindo caminhos de esperança no abraço da fé. Os bingos acontecem nos finais de semana perto da festa, com a presença da banda de música municipal   NOVEMBRO De 24 a 30 REGATA DA PRAIA DA BALEIA Evento Desportivo Baleia  Itapipoca foi favorecida pela natureza ao possuir três climas (praia, serra, sertão), possui também, uma das mais lindas praias do litoral cearense. Na praia da Baleia, acontece a tradicional regata, festa que oferece prêmios aos melhores navegantes com troféus e valores em dinheiro, e aos visitantes um lindo espetáculo ao ar livre, de cores nas águas cristalinas de um mar puro e manso. Além de comidas típicas nas pousadas da orla marítima, oferece dunas virgens para caminhadas matinais e passeios de bugre.</p></html>");
+        painel.add(labelTexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 58, 957, 400));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T5(1).jpg"))); // NOI18N
+        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 481, 957, 110));
 
-        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
-        painel1.setLayout(painel1Layout);
-        painel1Layout.setHorizontalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 957, Short.MAX_VALUE)
-                            .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-        );
-        painel1Layout.setVerticalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
-                .addGap(23, 23, 23))
-        );
+        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 614));
 
-        barraMenu.setBackground(new java.awt.Color(255, 255, 255));
+        barraMenu2.setBackground(new java.awt.Color(255, 255, 255));
 
-        menu1.setBackground(new java.awt.Color(255, 255, 255));
-        menu1.setText("Navegar");
+        menu5.setBackground(new java.awt.Color(255, 255, 255));
+        menu5.setText("Navegar");
 
-        menuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        menuItem1.setText("Ir para Início");
-        menuItem1.addActionListener(new java.awt.event.ActionListener() {
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        menuItem13.setText("Ir para Início");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem1ActionPerformed(evt);
+                menuItem13ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem1);
+        menu5.add(menuItem13);
 
         menuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
         menuItem2.setText("Ir para Pontos Turísticos");
@@ -113,7 +95,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem2ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem2);
+        menu5.add(menuItem2);
 
         menuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
         menuItem3.setText("Ir para Festejos da Cidade");
@@ -122,7 +104,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem3ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem3);
+        menu5.add(menuItem3);
 
         menuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
         menuItem4.setText("Ir para Fotos da Cidade");
@@ -131,7 +113,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem4ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem4);
+        menu5.add(menuItem4);
 
         menuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
         menuItem5.setText("Ir para Historia");
@@ -140,7 +122,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem5ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem5);
+        menu5.add(menuItem5);
 
         menuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
         menuItem6.setText("Ir para Mapa de Itapipoca");
@@ -149,7 +131,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem6ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem6);
+        menu5.add(menuItem6);
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
@@ -158,8 +140,8 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem7ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem7);
-        menu1.add(separador1);
+        menu5.add(menuItem7);
+        menu5.add(separador1);
 
         menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem8.setText("Avançar");
@@ -168,16 +150,17 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem8ActionPerformed(evt);
             }
         });
-        menu1.add(menuItem8);
+        menu5.add(menuItem8);
 
         menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
         menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
+        menu5.add(menuItem9);
 
-        barraMenu.add(menu1);
+        barraMenu2.add(menu5);
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +170,7 @@ public class Tela5 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,34 +179,33 @@ public class Tela5 extends javax.swing.JFrame {
         });
         menu2.add(menuItem11);
 
-        barraMenu.add(menu2);
+        barraMenu2.add(menu2);
 
         menu3.setText("Sobre");
-        barraMenu.add(menu3);
 
-        setJMenuBar(barraMenu);
+        menuItem14.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem14.setText("Sobre o Software");
+        menuItem14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem14ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem14);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        barraMenu2.add(menu3);
+
+        setJMenuBar(barraMenu2);
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
         this.dispose();
         Tela3 t3 = new Tela3();
         t3.setLocationRelativeTo(null);
         t3.setVisible(true);
-    }//GEN-LAST:event_menuItem1ActionPerformed
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     private void menuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem2ActionPerformed
         this.dispose();
@@ -287,6 +270,13 @@ public class Tela5 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem14ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem14ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -327,15 +317,22 @@ public class Tela5 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
+    private javax.swing.JMenuBar barraMenu1;
+    private javax.swing.JMenuBar barraMenu2;
     private javax.swing.JLabel labelImagem;
     private javax.swing.JLabel labelTexto;
     private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
+    private javax.swing.JMenu menu4;
+    private javax.swing.JMenu menu5;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
+    private javax.swing.JMenuItem menuItem14;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
@@ -344,7 +341,7 @@ public class Tela5 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
-    private javax.swing.JPanel painel1;
+    private javax.swing.JPanel painel;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

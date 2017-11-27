@@ -58,6 +58,7 @@ public class Tela9 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -361,6 +362,7 @@ public class Tela9 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -370,6 +372,7 @@ public class Tela9 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,6 +384,16 @@ public class Tela9 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -652,6 +665,13 @@ public class Tela9 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -719,6 +739,7 @@ public class Tela9 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;

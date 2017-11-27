@@ -4,30 +4,21 @@ public class Tela4 extends javax.swing.JFrame {
 
     public Tela4() {
         initComponents();
-        grupo.add(radioOpcao1);
-        grupo.add(radioOpcao2);
-        grupo.add(radioOpcao3);
-        grupo.add(radioOpcao4);
-        grupo.add(radioOpcao5);
-        grupo.add(radioOpcao6);
-        grupo.add(radioOpcao7);
     }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        grupo = new javax.swing.ButtonGroup();
-        painel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        radioOpcao1 = new javax.swing.JRadioButton();
-        radioOpcao2 = new javax.swing.JRadioButton();
-        radioOpcao3 = new javax.swing.JRadioButton();
-        radioOpcao4 = new javax.swing.JRadioButton();
-        radioOpcao5 = new javax.swing.JRadioButton();
-        radioOpcao6 = new javax.swing.JRadioButton();
-        radioOpcao7 = new javax.swing.JRadioButton();
-        botaoIr = new javax.swing.JButton();
+        painel = new javax.swing.JPanel();
+        labelTitle = new javax.swing.JLabel();
+        labelImagem1 = new javax.swing.JLabel();
+        labelImagem2 = new javax.swing.JLabel();
+        labelImagem3 = new javax.swing.JLabel();
+        labelImagem4 = new javax.swing.JLabel();
+        labelImagem5 = new javax.swing.JLabel();
+        labelImagem6 = new javax.swing.JLabel();
+        labelImagem7 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -45,107 +36,124 @@ public class Tela4 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        painel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel.setBackground(new java.awt.Color(153, 153, 153));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Pontos Turísticos");
+        labelTitle.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("Pontos Turísticos");
 
-        radioOpcao1.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao1.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao1.setText("Igreja do Arapari");
-
-        radioOpcao2.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao2.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao2.setText("Cruzeiro da Balança");
-
-        radioOpcao3.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao3.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao3.setText("Igreja da Matriz");
-
-        radioOpcao4.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao4.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao4.setText("Serra da Canoa");
-
-        radioOpcao5.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao5.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao5.setText("Horto do Santo Cruzeiro");
-
-        radioOpcao6.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao6.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao6.setText("Praia da Baleia");
-
-        radioOpcao7.setBackground(new java.awt.Color(0, 0, 0));
-        radioOpcao7.setForeground(new java.awt.Color(153, 153, 153));
-        radioOpcao7.setText("Praça dos Três Climas");
-
-        botaoIr.setText("IR");
-        botaoIr.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botaoIrActionPerformed(evt);
+        labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4a(1).jpg"))); // NOI18N
+        labelImagem1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja do Arapari", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem1MouseClicked(evt);
             }
         });
 
-        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
-        painel1.setLayout(painel1Layout);
-        painel1Layout.setHorizontalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addGap(62, 62, 62)
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(radioOpcao2, javax.swing.GroupLayout.DEFAULT_SIZE, 185, Short.MAX_VALUE)
-                            .addComponent(radioOpcao4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(radioOpcao3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(radioOpcao1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(painel1Layout.createSequentialGroup()
-                                .addGap(88, 88, 88)
-                                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(radioOpcao6, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(radioOpcao5, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(radioOpcao7, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(painel1Layout.createSequentialGroup()
-                                .addGap(120, 120, 120)
-                                .addComponent(botaoIr, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 92, Short.MAX_VALUE))))
-        );
-        painel1Layout.setVerticalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(radioOpcao1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(radioOpcao5, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(31, 31, 31)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(radioOpcao2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(radioOpcao6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(radioOpcao3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(radioOpcao7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(radioOpcao4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(botaoIr, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(37, Short.MAX_VALUE))
-        );
+        labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4b(1).jpg"))); // NOI18N
+        labelImagem2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Cruzeiro da Balança", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem2MouseClicked(evt);
+            }
+        });
 
-        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 410));
+        labelImagem3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4c(1).jpg"))); // NOI18N
+        labelImagem3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja da Matriz", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem3MouseClicked(evt);
+            }
+        });
+
+        labelImagem4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4d(1).jpg"))); // NOI18N
+        labelImagem4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Serra da Canoa", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem4MouseClicked(evt);
+            }
+        });
+
+        labelImagem5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4f(1).jpg"))); // NOI18N
+        labelImagem5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praia da Baleia", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem5MouseClicked(evt);
+            }
+        });
+
+        labelImagem6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4g(1).jpg"))); // NOI18N
+        labelImagem6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praça três Climas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem6MouseClicked(evt);
+            }
+        });
+
+        labelImagem7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T4e(1).jpg"))); // NOI18N
+        labelImagem7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Horto do Santo Cruzeiro", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelImagem7MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout painelLayout = new javax.swing.GroupLayout(painel);
+        painel.setLayout(painelLayout);
+        painelLayout.setHorizontalGroup(
+            painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(painelLayout.createSequentialGroup()
+                        .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(labelImagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelImagem4, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(labelImagem2, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelImagem5, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(labelImagem6, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelImagem3, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(labelImagem7, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        painelLayout.setVerticalGroup(
+            painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(painelLayout.createSequentialGroup()
+                        .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(labelImagem1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(labelImagem2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
+                            .addComponent(labelImagem3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(labelImagem4, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelImagem6, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelImagem5, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(labelImagem7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
+        );
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -233,6 +241,7 @@ public class Tela4 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -242,6 +251,7 @@ public class Tela4 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -253,46 +263,83 @@ public class Tela4 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(painel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(painel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void botaoIrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoIrActionPerformed
-        this.setVisible(false);
-        if(radioOpcao1.isSelected()){
-            Tela4a t4a = new Tela4a();
-            t4a.setLocationRelativeTo(null);
-            t4a.setVisible(true);
-        }else if(radioOpcao2.isSelected()){
-            Tela4b t4b = new Tela4b();
-            t4b.setLocationRelativeTo(null);
-            t4b.setVisible(true);
-        }else if(radioOpcao3.isSelected()){
-            Tela4c t4c = new Tela4c();
-            t4c.setLocationRelativeTo(null);
-            t4c.setVisible(true);
-       }else if(radioOpcao4.isSelected()){
-           Tela4d t4d = new Tela4d();
-           t4d.setLocationRelativeTo(null);
-           t4d.setVisible(true);
-       }else if(radioOpcao5.isSelected()){
-           Tela4e t4e = new Tela4e();
-           t4e.setLocationRelativeTo(null);
-           t4e.setVisible(true);
-       }else if(radioOpcao6.isSelected()){
-           Tela4f t4f = new Tela4f();
-           t4f.setLocationRelativeTo(null);
-           t4f.setVisible(true);
-       }else if(radioOpcao7.isSelected()){
-           Tela4g t4g = new Tela4g();
-           t4g.setLocationRelativeTo(null);
-           t4g.setVisible(true);
-       }
-    }//GEN-LAST:event_botaoIrActionPerformed
+    private void labelImagem1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem1MouseClicked
+        this.dispose();
+        Tela4a t4a = new Tela4a();
+        t4a.setLocationRelativeTo(null);
+        t4a.setVisible(true);
+    }//GEN-LAST:event_labelImagem1MouseClicked
+
+    private void labelImagem2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem2MouseClicked
+        this.dispose();
+        Tela4b t4b = new Tela4b();
+        t4b.setLocationRelativeTo(null);
+        t4b.setVisible(true);
+    }//GEN-LAST:event_labelImagem2MouseClicked
+
+    private void labelImagem3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem3MouseClicked
+        this.dispose();
+        Tela4c t4c = new Tela4c();
+        t4c.setLocationRelativeTo(null);
+        t4c.setVisible(true);
+    }//GEN-LAST:event_labelImagem3MouseClicked
+
+    private void labelImagem4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem4MouseClicked
+        this.dispose();
+        Tela4d t4d = new Tela4d();
+        t4d.setLocationRelativeTo(null);
+        t4d.setVisible(true);
+    }//GEN-LAST:event_labelImagem4MouseClicked
+
+    private void labelImagem5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem5MouseClicked
+        this.dispose();
+        Tela4f t4f = new Tela4f();
+        t4f.setLocationRelativeTo(null);
+        t4f.setVisible(true);
+    }//GEN-LAST:event_labelImagem5MouseClicked
+
+    private void labelImagem6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem6MouseClicked
+        this.dispose();
+        Tela4g t4g = new Tela4g();
+        t4g.setLocationRelativeTo(null);
+        t4g.setVisible(true);
+    }//GEN-LAST:event_labelImagem6MouseClicked
+
+    private void labelImagem7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelImagem7MouseClicked
+        this.dispose();
+        Tela4e t4e = new Tela4e();
+        t4e.setLocationRelativeTo(null);
+        t4e.setVisible(true);
+    }//GEN-LAST:event_labelImagem7MouseClicked
 
     private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
         this.dispose();
@@ -364,6 +411,13 @@ public class Tela4 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -397,15 +451,21 @@ public class Tela4 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JButton botaoIr;
-    private javax.swing.ButtonGroup grupo;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel labelImagem1;
+    private javax.swing.JLabel labelImagem2;
+    private javax.swing.JLabel labelImagem3;
+    private javax.swing.JLabel labelImagem4;
+    private javax.swing.JLabel labelImagem5;
+    private javax.swing.JLabel labelImagem6;
+    private javax.swing.JLabel labelImagem7;
+    private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
@@ -414,14 +474,7 @@ public class Tela4 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
-    private javax.swing.JPanel painel1;
-    private javax.swing.JRadioButton radioOpcao1;
-    private javax.swing.JRadioButton radioOpcao2;
-    private javax.swing.JRadioButton radioOpcao3;
-    private javax.swing.JRadioButton radioOpcao4;
-    private javax.swing.JRadioButton radioOpcao5;
-    private javax.swing.JRadioButton radioOpcao6;
-    private javax.swing.JRadioButton radioOpcao7;
+    private javax.swing.JPanel painel;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

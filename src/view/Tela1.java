@@ -8,7 +8,7 @@ public class Tela1 extends javax.swing.JFrame {
 
     public Tela1() {
         initComponents();
-        
+        botaoAvanc.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
     }
 
     @SuppressWarnings("unchecked")
@@ -16,11 +16,12 @@ public class Tela1 extends javax.swing.JFrame {
     private void initComponents() {
 
         painel = new javax.swing.JPanel();
+        labelTitle = new javax.swing.JLabel();
         labelNome = new javax.swing.JLabel();
         campoSenha = new javax.swing.JPasswordField();
         botaoAvanc = new javax.swing.JButton();
         labelImagem = new javax.swing.JLabel();
-        labelTitle = new javax.swing.JLabel();
+        labelImagem2 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -38,7 +39,7 @@ public class Tela1 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -46,6 +47,12 @@ public class Tela1 extends javax.swing.JFrame {
 
         painel.setBackground(new java.awt.Color(0, 0, 0));
         painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        labelTitle.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("GUIA TURÍSTICO - ITAPIPOCA-CE");
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 570, 40));
 
         labelNome.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         labelNome.setForeground(new java.awt.Color(255, 255, 255));
@@ -65,6 +72,7 @@ public class Tela1 extends javax.swing.JFrame {
         botaoAvanc.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         botaoAvanc.setText("Avançar");
         botaoAvanc.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        botaoAvanc.setBorderPainted(false);
         botaoAvanc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botaoAvancActionPerformed(evt);
@@ -74,13 +82,10 @@ public class Tela1 extends javax.swing.JFrame {
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T1(1).jpg"))); // NOI18N
-        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 51, 590, 380));
+        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 51, 570, 380));
 
-        labelTitle.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
-        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelTitle.setText("GUIA TURÍSTICO - ITAPIPOCA-CE");
-        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 570, 40));
+        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
+        painel.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 500));
 
         getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 500));
 
@@ -170,6 +175,7 @@ public class Tela1 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,6 +185,7 @@ public class Tela1 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,8 +198,14 @@ public class Tela1 extends javax.swing.JFrame {
 
         menu3.setText("Sobre");
 
-        jMenuItem1.setText("Com que intuito foi feito esse software?");
-        menu3.add(jMenuItem1);
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
 
         barraMenu.add(menu3);
 
@@ -314,6 +327,13 @@ public class Tela1 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -349,8 +369,8 @@ public class Tela1 extends javax.swing.JFrame {
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JButton botaoAvanc;
     private javax.swing.JPasswordField campoSenha;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JLabel labelImagem;
+    private javax.swing.JLabel labelImagem2;
     private javax.swing.JLabel labelNome;
     private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
@@ -359,6 +379,7 @@ public class Tela1 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;

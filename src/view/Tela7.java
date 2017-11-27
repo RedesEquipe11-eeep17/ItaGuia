@@ -10,7 +10,7 @@ public class Tela7 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        painel1 = new javax.swing.JPanel();
+        painel = new javax.swing.JPanel();
         labelImagem = new javax.swing.JLabel();
         labelTitle = new javax.swing.JLabel();
         labelTexto = new javax.swing.JLabel();
@@ -31,11 +31,12 @@ public class Tela7 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        painel1.setBackground(new java.awt.Color(0, 0, 0));
+        painel.setBackground(new java.awt.Color(153, 153, 153));
 
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T7(1).jpg"))); // NOI18N
         labelImagem.setText("jLabel4");
@@ -50,30 +51,30 @@ public class Tela7 extends javax.swing.JFrame {
         labelTexto.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         labelTexto.setText("<html><p align=\"justify\">Suas origens remontam aos primórdios do Século XVII, quando requereram e obtiveram por Sesmaria terras situadas na região, os portugueses Francisco Pinheiro do Lago e sua mulher D. Josefa Ferreira de Oliveira, Tomé de Oliveira Chaves e sua mulher, tendo como localização possessória os sítios Santo Amaro e São José, destacando Jerônimo de Freitas Guimarães e sua mulher D. Francisca Pinheiro do Lago.  Desses e outros, vinculados ao mesmo agregamento, nasceu a Vila, mantendo a mesma denominação e a ter como instrumento de criação a Resolução Imperial de 3 de fevereiro de 1823, referendado pelo Alvará de 17 de outubro do mesmo ano. Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.  Em suas manifestações de apoio eclesial consta inicialmente do desdobramento do Curato do Acaraú em quatro Freguesias, conforme Provisão referenciada no ano de 1757 e assinada por D. Francisco Xavier Aranha, do Bispado de Pernambuco. Uma dessas Freguesias teve por sede o reduto de São Bento de Amontada sob cuja jurisdição ficou subordinado o reduto de São José da Uruburetama.  Em 1778, segundo praxe adotada na formação de patrimônios eclesiásticos, Jerônimo Guimarães doou, em favor da recém-desmembrada Freguesia, meia légua de terras, situando-se nesse local o espaço físico onde deveria ser construída a Igreja-Matriz. A transferência de sede da Freguesia, para a Vila de Imperatriz, deu-se segundo Lei nº 364, de 29 de julho de 1846, sendo seu primeiro vigário o padre Luiz Antônio da Rocha Lima, funcionando provisoriamente na capela de Nossa senhora das Mercês.  A Igreja-Matriz, dedicada ao padroado de Nossa Senhora das Mercês, teve como início de obras o ano de 1881 e como responsável Monsenhor Antero José de Lima. Dada a sua evolução eclesiástica, concedeu-se à Paróquia o título de Bispado, não havendo, pelo menos ao nosso alcance, registros que identifiquem a data-início dessa evolução. Evolução política Quando da transferência da Vila, para a localização atual, com o nome de Imperatriz, atribuído conforme Lei Provincial nº 1.011, de 3 de novembro de 1862, o antigo reduto passou a chamar-se Vila Velha. A mudança de nome, para a denominação atual. Ocorreu segundo Dec. Nº 1, de 2 de dezembro de 1889. Sua elevação à categoria de Cidade, ocorreu, em virtude de Lei nº 1.288, de 31 de agosto de 1915.</p></html>");
 
-        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
-        painel1.setLayout(painel1Layout);
-        painel1Layout.setHorizontalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout painelLayout = new javax.swing.GroupLayout(painel);
+        painel.setLayout(painelLayout);
+        painelLayout.setHorizontalGroup(
+            painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(painel1Layout.createSequentialGroup()
+                    .addGroup(painelLayout.createSequentialGroup()
                         .addComponent(labelImagem, javax.swing.GroupLayout.PREFERRED_SIZE, 1006, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
-        painel1Layout.setVerticalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
+        painelLayout.setVerticalGroup(
+            painelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(painelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(labelImagem, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(labelTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addComponent(labelTexto, javax.swing.GroupLayout.DEFAULT_SIZE, 292, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
@@ -162,6 +163,7 @@ public class Tela7 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,6 +173,7 @@ public class Tela7 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,6 +185,16 @@ public class Tela7 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -190,11 +203,11 @@ public class Tela7 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(painel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(painel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(painel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -271,6 +284,13 @@ public class Tela7 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -313,6 +333,7 @@ public class Tela7 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
@@ -321,7 +342,7 @@ public class Tela7 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem7;
     private javax.swing.JMenuItem menuItem8;
     private javax.swing.JMenuItem menuItem9;
-    private javax.swing.JPanel painel1;
+    private javax.swing.JPanel painel;
     private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables

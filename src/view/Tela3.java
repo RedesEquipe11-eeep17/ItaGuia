@@ -1,5 +1,14 @@
 package view;
 
+import view.Tela4;
+import view.Tela5;
+import view.Tela6;
+import view.Tela7;
+import view.Tela8;
+import view.Tela9;
+import view.Tela9a;
+import view.Tela9b;
+
 public class Tela3 extends javax.swing.JFrame {
 
     public Tela3() {
@@ -12,8 +21,9 @@ public class Tela3 extends javax.swing.JFrame {
 
         painel = new javax.swing.JPanel();
         labelTitle = new javax.swing.JLabel();
-        labelImagem = new javax.swing.JLabel();
         labelText = new javax.swing.JLabel();
+        labelImagem1 = new javax.swing.JLabel();
+        labelImagem2 = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -31,6 +41,7 @@ public class Tela3 extends javax.swing.JFrame {
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
+        menuItem12 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -44,18 +55,21 @@ public class Tela3 extends javax.swing.JFrame {
         labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("ITAPIPOCA - CIDADE DOS TRÊS CLIMAS");
-        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 950, 50));
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 640, 50));
 
-        labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T3(1).jpg"))); // NOI18N
-        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 420, 190));
-
-        labelText.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        labelText.setFont(new java.awt.Font("Arial", 1, 10)); // NOI18N
         labelText.setForeground(new java.awt.Color(255, 255, 255));
-        labelText.setText("<html><p align=\"justify\">A possibilidade de escolha aqui prevalece. A cidade de Itapipoca \njunto com a região rural oferece um complexo natural que \nproporciona aventura, lazer, conhecimento e entretenimento. \nO melhor é que o cenário do passeio muda de acordo com a \nvontade do visitante, pois nossa região possui três agradáveis \nclimas que favorecem diversos gostos. Logo na sede já é possível \nvisualizar diversas serras que resplandecem e refletem um \nverde-escuro aos olhos de quem as observa.Indo ao encontro das \nmesmas, encontramos atrativos naturais, aptos para quem gosta \nde um ambiente mais calmo e fresco. Lá podemos encontrar \ndiversas bicas, que banham com suas águas limpas e geladas que \nvêm lá do topo da serra. Vizinho a essas bicas temos pequenos \nrestaurantes que servem a culinária local e principalmente a \npossibilidade de degustação de frutos, que é o forte da região. \nSem falar das trilhas ecológicas que lá existem, \nque por sua vez leva quem as fazem até gigantes pedreiras que \nde lá se faz possível uma visualização abrangente da região e a \nobservação de vários inselbergs. Mudando o sentido, vamos ao \nencontro do sertão, onde se faz muito calor durante o dia e \nbastante frio durante a noite. Porém esse calor diurno pode ser \nrefrescado com um delicioso banho em um de nossos agradáveis \naçudes. Se concentra nessa parte do município a criação bovina, \nonde se faz possível se provar o famoso queijo coalho \nou a paçoca de carne. Em pequenos restaurantes sertanejos \npodemos encontrar a apreciada galinha caipira, ou o capote cozido. \nVale ressaltar que a região citada concentra sítios arqueológicos e \npaleontológicos, onde são encontrados fósseis e resquícios de \nanimais primitivos. Outro forte é a existência de uma tribo indígena \n(tribo Tremembé) no meio do sertão bravo, onde essa existência só \naumenta e fortifica a cultura indígena no município. \nSeguindo a rota chegamos ao litoral, no qual se destaca a praia da \nbaleia, em que pode-se encontrar todas  as iguarias e atrativos que \numa praia cearense oferece. Então quem busca aventura, diversão, \nconhecimento e cultura, precisa conhecer Itapipoca.</p></html>");
-        painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 70, 510, 390));
+        labelText.setText("<html><p align=\"justify\">A possibilidade de escolha aqui prevalece. A cidade de Itapipoca  junto com a região rural oferece um complexo natural que  proporciona aventura, lazer, conhecimento e entretenimento.  O melhor é que o cenário do passeio muda de acordo com a  vontade do visitante, pois nossa região possui três agradáveis  climas que favorecem diversos gostos. Logo na sede já é possível  visualizar diversas serras que resplandecem e refletem um  verde-escuro aos olhos de quem as observa.Indo ao encontro das  mesmas, encontramos atrativos naturais, aptos para quem gosta  de um ambiente mais calmo e fresco. Lá podemos encontrar  diversas bicas, que banham com suas águas limpas e geladas que  vêm lá do topo da serra. Vizinho a essas bicas temos pequenos  restaurantes que servem a culinária local e principalmente a  possibilidade de degustação de frutos, que é o forte da região.  Sem falar das trilhas ecológicas que lá existem,  que por sua vez leva quem as fazem até gigantes pedreiras que  de lá se faz possível uma visualização abrangente da região e a  observação de vários inselbergs. Mudando o sentido, vamos ao  encontro do sertão, onde se faz muito calor durante o dia e  bastante frio durante a noite. Porém esse calor diurno pode ser  refrescado com um delicioso banho em um de nossos agradáveis  açudes. Se concentra nessa parte do município a criação bovina,  onde se faz possível se provar o famoso queijo coalho  ou a paçoca de carne. Em pequenos restaurantes sertanejos  podemos encontrar a apreciada galinha caipira, ou o capote cozido.  Vale ressaltar que a região citada concentra sítios arqueológicos e  paleontológicos, onde são encontrados fósseis e resquícios de  animais primitivos. Outro forte é a existência de uma tribo indígena  (tribo Tremembé) no meio do sertão bravo, onde essa existência só  aumenta e fortifica a cultura indígena no município.  Seguindo a rota chegamos ao litoral, no qual se destaca a praia da  baleia, em que pode-se encontrar todas  as iguarias e atrativos que  uma praia cearense oferece. Então quem busca aventura, diversão,  conhecimento e cultura, precisa conhecer Itapipoca.</p></html>");
+        painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 640, 240));
 
-        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 970, 490));
+        labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T3(1).jpg"))); // NOI18N
+        painel.add(labelImagem1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 70, 420, 190));
+
+        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
+        painel.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 530));
+
+        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 530));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -143,6 +157,7 @@ public class Tela3 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,6 +167,7 @@ public class Tela3 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,6 +179,16 @@ public class Tela3 extends javax.swing.JFrame {
         barraMenu.add(menu2);
 
         menu3.setText("Sobre");
+
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setText("Sobre o Software");
+        menuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem12ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem12);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -241,6 +267,13 @@ public class Tela3 extends javax.swing.JFrame {
         t9b.setVisible(true);
     }//GEN-LAST:event_menuItem11ActionPerformed
 
+    private void menuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem12ActionPerformed
+        this.dispose();
+        Tela9c t9c = new Tela9c();
+        t9c.setLocationRelativeTo(null);
+        t9c.setVisible(true);
+    }//GEN-LAST:event_menuItem12ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -278,7 +311,8 @@ public class Tela3 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JLabel labelImagem;
+    private javax.swing.JLabel labelImagem1;
+    private javax.swing.JLabel labelImagem2;
     private javax.swing.JLabel labelText;
     private javax.swing.JLabel labelTitle;
     private javax.swing.JMenu menu1;
@@ -287,6 +321,7 @@ public class Tela3 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
+    private javax.swing.JMenuItem menuItem12;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
