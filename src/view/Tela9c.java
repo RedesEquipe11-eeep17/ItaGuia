@@ -4,27 +4,29 @@ public class Tela9c extends javax.swing.JFrame {
 
     public Tela9c() {
         initComponents();
+        botaoReturn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
     }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        painel1 = new javax.swing.JPanel();
+        painel = new javax.swing.JPanel();
         labelText = new javax.swing.JLabel();
         botaoReturn = new javax.swing.JButton();
+        labelImagem = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        painel1.setBackground(new java.awt.Color(0, 0, 0));
-        painel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        painel.setBackground(new java.awt.Color(0, 0, 0));
+        painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         labelText.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         labelText.setForeground(new java.awt.Color(255, 255, 255));
         labelText.setText("<html><p align=\"justify\">Esse software foi criado com o intuito de informar e lhes disponinibilizar mais aprendizado sobre nossa cidade e tambem sobre suas girias,cultura e seus principais pontos turisticos, não só isso mais para tambem em um futuro proximo visitantes de outros locais obtessem conhecimento sobre o mesmo.</p></html>");
-        painel1.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 420, 300));
+        painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 400, 340));
 
         botaoReturn.setText("Retornar");
         botaoReturn.addActionListener(new java.awt.event.ActionListener() {
@@ -32,9 +34,12 @@ public class Tela9c extends javax.swing.JFrame {
                 botaoReturnActionPerformed(evt);
             }
         });
-        painel1.add(botaoReturn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 330, 100, 30));
+        painel.add(botaoReturn, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 370, 100, 30));
 
-        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 380));
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/background-preto-fundo.jpg"))); // NOI18N
+        painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 420));
+
+        getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 420));
 
         pack();
         setLocationRelativeTo(null);
@@ -85,7 +90,8 @@ public class Tela9c extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoReturn;
+    private javax.swing.JLabel labelImagem;
     private javax.swing.JLabel labelText;
-    private javax.swing.JPanel painel1;
+    private javax.swing.JPanel painel;
     // End of variables declaration//GEN-END:variables
 }

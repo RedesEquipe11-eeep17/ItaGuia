@@ -12,9 +12,9 @@ public class Tela4b extends javax.swing.JFrame {
     private void initComponents() {
 
         painel = new javax.swing.JPanel();
-        botaoReturn = new javax.swing.JButton();
         labelTitle = new javax.swing.JLabel();
         labelTxt = new javax.swing.JLabel();
+        botaoReturn = new javax.swing.JButton();
         labelImagem = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
@@ -25,15 +25,13 @@ public class Tela4b extends javax.swing.JFrame {
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
-        separador1 = new javax.swing.JPopupMenu.Separator();
-        menuItem8 = new javax.swing.JMenuItem();
-        menuItem9 = new javax.swing.JMenuItem();
         menu2 = new javax.swing.JMenu();
         menuItem10 = new javax.swing.JMenuItem();
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
+        menuItem13 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -41,6 +39,17 @@ public class Tela4b extends javax.swing.JFrame {
 
         painel.setBackground(new java.awt.Color(0, 0, 0));
         painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        labelTitle.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("Cruzeiro da Balança");
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 450, 42));
+
+        labelTxt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        labelTxt.setForeground(new java.awt.Color(255, 255, 255));
+        labelTxt.setText("<html><p align=\"justify\">É um monumento histórico situado no intermédio da sede de Itapipoca e o distrito de Arapari. Segundo a lenda um cidadão serrano cujo nome era um certo senhor Júlio, estava com uma enfermidade grave, então fez a seguinte promessa, se fosse curado iria entrar na mata e buscar o maior tronco que encontrasse para fazer  uma cruz e colocá-la no cruzeiro.  O certo senhor Júlio foi curado, e assim cumpriu o que  prometeu, construindo a cruz e colocando-a no cruzeiro,  o que viria a ser chamado de cruzeiro da balança, já que no  local há fortes ventos, o que faz com que as árvores fiquem  frequentemente balançando. O monumento é um dos mais  antigos da cidade, e o que mostra e simboliza a fé do povo  itapipoquense.</p></html>");
+        painel.add(labelTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 64, 448, 220));
 
         botaoReturn.setText("Retornar");
         botaoReturn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -51,17 +60,6 @@ public class Tela4b extends javax.swing.JFrame {
             }
         });
         painel.add(botaoReturn, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 295, 92, 37));
-
-        labelTitle.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
-        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelTitle.setText("Cruzeiro da Balança");
-        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 11, 458, 42));
-
-        labelTxt.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        labelTxt.setForeground(new java.awt.Color(255, 255, 255));
-        labelTxt.setText("<html><p align=\"justify\">É um monumento histórico situado no intermédio da sede de Itapipoca e o distrito de Arapari. Segundo a lenda um cidadão serrano cujo nome era um certo senhor Júlio, estava com uma enfermidade grave, então fez a seguinte promessa, se fosse curado iria entrar na mata e buscar o maior tronco que encontrasse para fazer  uma cruz e colocá-la no cruzeiro.  O certo senhor Júlio foi curado, e assim cumpriu o que  prometeu, construindo a cruz e colocando-a no cruzeiro,  o que viria a ser chamado de cruzeiro da balança, já que no  local há fortes ventos, o que faz com que as árvores fiquem  frequentemente balançando. O monumento é um dos mais  antigos da cidade, e o que mostra e simboliza a fé do povo  itapipoquense.</p></html>");
-        painel.add(labelTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 64, 448, 225));
 
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
         painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 360));
@@ -135,20 +133,6 @@ public class Tela4b extends javax.swing.JFrame {
             }
         });
         menu1.add(menuItem7);
-        menu1.add(separador1);
-
-        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
-        menuItem8.setText("Avançar");
-        menuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem8ActionPerformed(evt);
-            }
-        });
-        menu1.add(menuItem8);
-
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
-        menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
 
         barraMenu.add(menu1);
 
@@ -185,6 +169,15 @@ public class Tela4b extends javax.swing.JFrame {
             }
         });
         menu3.add(menuItem12);
+
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setText("Desenvolvedores");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem13ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem13);
 
         barraMenu.add(menu3);
 
@@ -250,13 +243,6 @@ public class Tela4b extends javax.swing.JFrame {
         t9.setVisible(true);
     }//GEN-LAST:event_menuItem7ActionPerformed
 
-    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
-        this.dispose();
-        Tela3 t3a = new Tela3();
-        t3a.setLocationRelativeTo(null);
-        t3a.setVisible(true);
-    }//GEN-LAST:event_menuItem8ActionPerformed
-
     private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
         this.dispose();
         Tela9a t9a = new Tela9a();
@@ -277,6 +263,13 @@ public class Tela4b extends javax.swing.JFrame {
         t9c.setLocationRelativeTo(null);
         t9c.setVisible(true);
     }//GEN-LAST:event_menuItem12ActionPerformed
+
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
+        this.dispose();
+        Tela9d t9d = new Tela9d();
+        t9d.setLocationRelativeTo(null);
+        t9d.setVisible(true);
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -326,16 +319,14 @@ public class Tela4b extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
     private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
     private javax.swing.JPanel painel;
-    private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }

@@ -40,15 +40,13 @@ public class Tela8 extends javax.swing.JFrame {
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
-        separador1 = new javax.swing.JPopupMenu.Separator();
-        menuItem8 = new javax.swing.JMenuItem();
-        menuItem9 = new javax.swing.JMenuItem();
         menu2 = new javax.swing.JMenu();
         menuItem10 = new javax.swing.JMenuItem();
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
+        menuItem13 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -67,7 +65,7 @@ public class Tela8 extends javax.swing.JFrame {
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T8(1).png"))); // NOI18N
         painel.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 74, 360, -1));
 
-        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
+        labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/background-preto-fundo.jpg"))); // NOI18N
         painel.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 520));
 
         getContentPane().add(painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 520));
@@ -139,20 +137,6 @@ public class Tela8 extends javax.swing.JFrame {
             }
         });
         menu1.add(menuItem7);
-        menu1.add(separador1);
-
-        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
-        menuItem8.setText("Avançar");
-        menuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem8ActionPerformed(evt);
-            }
-        });
-        menu1.add(menuItem8);
-
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
-        menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
 
         barraMenu.add(menu1);
 
@@ -189,6 +173,15 @@ public class Tela8 extends javax.swing.JFrame {
             }
         });
         menu3.add(menuItem12);
+
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setText("Desenvolvedores");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem13ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem13);
 
         barraMenu.add(menu3);
 
@@ -247,13 +240,6 @@ public class Tela8 extends javax.swing.JFrame {
         t9.setVisible(true);
     }//GEN-LAST:event_menuItem7ActionPerformed
 
-    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
-        this.dispose();
-        Tela3 t3a = new Tela3();
-        t3a.setLocationRelativeTo(null);
-        t3a.setVisible(true);
-    }//GEN-LAST:event_menuItem8ActionPerformed
-
     private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
         this.dispose();
         Tela9a t9a = new Tela9a();
@@ -274,6 +260,13 @@ public class Tela8 extends javax.swing.JFrame {
         t9c.setLocationRelativeTo(null);
         t9c.setVisible(true);
     }//GEN-LAST:event_menuItem12ActionPerformed
+
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
+        this.dispose();
+        Tela9d t9d = new Tela9d();
+        t9d.setLocationRelativeTo(null);
+        t9d.setVisible(true);
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -322,16 +315,14 @@ public class Tela8 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
     private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
     private javax.swing.JPanel painel;
-    private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }

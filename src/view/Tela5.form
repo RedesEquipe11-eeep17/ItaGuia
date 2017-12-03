@@ -2,14 +2,14 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Menu class="javax.swing.JMenuBar" name="barraMenu2">
+    <Menu class="javax.swing.JMenuBar" name="barraMenu">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="menu5">
+        <Menu class="javax.swing.JMenu" name="menu1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -17,7 +17,7 @@
             <Property name="text" type="java.lang.String" value="Navegar"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItem13">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItem1">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F1"/>
@@ -25,7 +25,7 @@
                 <Property name="text" type="java.lang.String" value="Ir para In&#xed;cio"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem13ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem1ActionPerformed"/>
               </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItem2">
@@ -94,27 +94,6 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem7ActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JPopupMenu$Separator" name="separador1">
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItem8">
-              <Properties>
-                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F8"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Avan&#xe7;ar"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem8ActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItem9">
-              <Properties>
-                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F9"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Retornar"/>
-              </Properties>
-            </MenuItem>
           </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="menu2">
@@ -153,7 +132,7 @@
             <Property name="text" type="java.lang.String" value="Sobre"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItem14">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItem12">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F12"/>
@@ -161,7 +140,18 @@
                 <Property name="text" type="java.lang.String" value="Sobre o Software"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem14ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem12ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItem13">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="TAB"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Desenvolvedores"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItem13ActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
@@ -174,7 +164,7 @@
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
-    <SyntheticProperty name="menuBar" type="java.lang.String" value="barraMenu2"/>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="barraMenu"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
@@ -188,74 +178,174 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,123,0,0,3,-54"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-90,0,0,1,-11"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
     <Property name="useNullLayout" type="boolean" value="false"/>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="painel">
+    <Component class="javax.swing.JLabel" name="labelTitle">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="99" red="99" type="rgb"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="24" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Festejos da Cidade"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="12" width="480" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;FESTA DE S&#xc3;O SEBASTI&#xc3;O - PADROEIRO DO MUNIC&#xcd;PIO&lt;/html&gt;&lt;/center&gt;"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="80" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CARNAVAL"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao2ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="150" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FESTA DAS FLORES"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao3ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="220" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXPOSI&#xc7;&#xc3;O AGROPECU&#xc1;RIA"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao4ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="80" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;FESTA DE NOSSA SENHORA DAS MERC&#xca;S&lt;/center&gt;&lt;/html&gt;"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao6ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="220" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ANIVERS&#xc1;RIO DO MUNIC&#xcd;PIO"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao5ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="150" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REGATA DA PRAIA DA BALEIA"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao7ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="150" y="300" width="200" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelImagem">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/BackgroundTelas.png"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="-1" height="614"/>
+          <AbsoluteConstraints x="0" y="0" width="500" height="400"/>
         </Constraint>
       </Constraints>
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-        <Property name="useNullLayout" type="boolean" value="false"/>
-      </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="labelTitle">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial" size="24" style="1"/>
-            </Property>
-            <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Festejos da Cidade"/>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="12" width="960" height="40"/>
-            </Constraint>
-          </Constraints>
-        </Component>
-        <Component class="javax.swing.JLabel" name="labelTexto">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial" size="12" style="1"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="horizontalAlignment" type="int" value="11"/>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p align=&quot;justify&quot;&gt;JANEIRO De 10 a 20 FESTA DE S&#xc3;O SEBASTI&#xc3;O-PADROEIRO DO MUNIC&#xcd;PIO Evento Religioso.  Os festejos acontecem em Itapipoca desde 1946. &#xc9; uma das mais antigas e tradicionais festas religiosas do munic&#xed;pio. S&#xe3;o momentos de ora&#xe7;&#xe3;o, devo&#xe7;&#xe3;o em agradecimento ao ano que passou e preces por um ano bom chuvas e muita safra. S&#xe3;o dez dias de novenas e termina com uma prociss&#xe3;o pelas principais ruas do munic&#xed;pio em seguida uma missa campal no patamar da igreja.   FEVEREIRO/MAR&#xc7;O Data m&#xf3;vel CARNAVAL Evento Popular e Folcl&#xf3;rico   &#xc9; uma festa que vem crescendo a cada ano e assumindo grande import&#xe2;ncia no cen&#xe1;rio tur&#xed;stico e cultural de toda regi&#xe3;o. Os festejos come&#xe7;am na sexta com um baile Tropical realizado nas depend&#xea;ncias do Clube AABB. No s&#xe1;bado &#xe0; noite tem in&#xed;cio &#xe0; folia de rua , que se estende at&#xe9; a ter&#xe7;a &#x2013;feira gorda. No domingo e na ter&#xe7;a acontecem os desfiles das escolas, blocos agremia&#xe7;&#xf5;es e maracatus, com premia&#xe7;&#xf5;es para os melhores de cada categoria. Durante o dia os foli&#xf5;es se espalham nos balne&#xe1;rios da serra, praia da baleia e no Po&#xe7;o Verde. Com essas atra&#xe7;&#xf5;es, o clima agrad&#xe1;vel e o povo amigo e hospitaleiro de Itapipoca, fazem do carnaval um grande atrativo.     MAIO DE 25 A 31 FESTIVAL DAS FLORES FESTA DAS FLORES Evento Social/e ou Assistencial   Na &#xfa;ltima semana de maio acontece a tradicional festa das flores, que reuni toda a sociedade do munic&#xed;pio, das regi&#xf5;es circunvizinhas e da capital(Fortaleza).Outra a&#xe7;&#xe3;o inovadora realizada Pela SECUTUDE,foi Festival das Flores, transformado em evento &#xe2;ncora, evento representativo do munic&#xed;pio agregou valores tur&#xed;sticos e culturais a uma das festas mais tradicionais de Itapipoca, com a realiza&#xe7;&#xe3;o de feiras, exposi&#xe7;&#xf5;es, cursos, desfiles, palestras e etc.  AGOSTO DATA M&#xd3;VEL EXPOSI&#xc7;&#xc3;O AGROPECU&#xc1;RIA Evento Social/Neg&#xf3;cios  Evento que antecede as comemora&#xe7;&#xf5;es alusivas ao anivers&#xe1;rio do munic&#xed;pio.Feira agropecu&#xe1;ria, com estandes variados que mostram o que h&#xe1; de mais atual no setor agropecu&#xe1;rio. Este grande acontecimento que movimenta as depend&#xea;ncias do Parque de Exposi&#xe7;&#xf5;es Coronel Hildeberto Barroso,conta tamb&#xe9;m com apresenta&#xe7;&#xf5;es culturais, festas dan&#xe7;antes com grandes atra&#xe7;&#xf5;es, quiosques para a venda de bebidas e comidas, grande estacionamento, exposi&#xe7;&#xe3;o de animais e muita divers&#xe3;o.  DIA 31 ANIVERS&#xc1;RIO DO MUNIC&#xcd;PIO Evento C&#xed;vico  Itapipoca comemora seu anivers&#xe1;rio no dia 31 de Agosto com muita alegria e uma programa&#xe7;&#xe3;o extensa que envolve toda a comunidade, seja ela da sede ou da zona rural.Com alvorada de fogos, seguida de uma prociss&#xe3;o e celebra&#xe7;&#xe3;o de uma missa campal no Horto do Cruzeiro. No decorrer do dia, acontecem v&#xe1;rias manifesta&#xe7;&#xf5;es festivas, como tamb&#xe9;m a inaugura&#xe7;&#xe3;o de reformas ou obras realizadas pela prefeitura.  SETEMBRO DE 29 DE AGOSTO A 08 DE SETEMBRO FESTA DE NOSSA SENHORA DAS MERC&#xca;S Evento Religioso Distrito de Arapari   &#xc8; o mais antigo evento da regi&#xe3;o. No leil&#xe3;o dessa festa os objetos s&#xe3;o doados pela comunidade. No &#xfa;ltimo dia, festa dan&#xe7;ante no Clube Social de Arapari. Estima-se a participa&#xe7;&#xe3;o de 1.000 pessoas. O grande chamariz &#xe9; que esta festa acontece no ber&#xe7;o de nascimento do munic&#xed;pio de Itapipoca  DE 14 A 24 FESTA DE NOSSA SENHORA DAS MERC&#xca;S PADROEIRA DE ITAPIPOCA Evento Religioso   Nossa Senhora das Merc&#xea;s &#xe9; a padroeira da Catedral, par&#xf3;quia mais antiga de Itapipoca, iniciada em Vila Velha-Arapari. Em setembro a comunidade reza com os festejos da padroeira local e tamb&#xe9;m diocesana. &#xc9; uma festa tradicional que envolve todas as par&#xf3;quias do munic&#xed;pio, e toda a sociedade em momento de ora&#xe7;&#xe3;o, devo&#xe7;&#xe3;o e encontros fraternos construindo caminhos de esperan&#xe7;a no abra&#xe7;o da f&#xe9;. Os bingos acontecem nos finais de semana perto da festa, com a presen&#xe7;a da banda de m&#xfa;sica municipal   NOVEMBRO De 24 a 30 REGATA DA PRAIA DA BALEIA Evento Desportivo Baleia  Itapipoca foi favorecida pela natureza ao possuir tr&#xea;s climas (praia, serra, sert&#xe3;o), possui tamb&#xe9;m, uma das mais lindas praias do litoral cearense. Na praia da Baleia, acontece a tradicional regata, festa que oferece pr&#xea;mios aos melhores navegantes com trof&#xe9;us e valores em dinheiro, e aos visitantes um lindo espet&#xe1;culo ao ar livre, de cores nas &#xe1;guas cristalinas de um mar puro e manso. Al&#xe9;m de comidas t&#xed;picas nas pousadas da orla mar&#xed;tima, oferece dunas virgens para caminhadas matinais e passeios de bugre.&lt;/p&gt;&lt;/html&gt;"/>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="58" width="957" height="400"/>
-            </Constraint>
-          </Constraints>
-        </Component>
-        <Component class="javax.swing.JLabel" name="labelImagem">
-          <Properties>
-            <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagens/T5(1).jpg"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="481" width="957" height="110"/>
-            </Constraint>
-          </Constraints>
-        </Component>
-      </SubComponents>
-    </Container>
+    </Component>
   </SubComponents>
 </Form>

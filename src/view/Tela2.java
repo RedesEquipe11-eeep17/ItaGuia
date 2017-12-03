@@ -35,40 +35,25 @@ public class Tela2 extends javax.swing.JFrame {
         labelImagem = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         painel2.setBackground(new java.awt.Color(255, 255, 255));
+        painel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         labelTitle.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("Bem Vindo ao Guia Turístico!!!");
+        painel2.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 520, 62));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T2(1).jpg"))); // NOI18N
-
-        javax.swing.GroupLayout painel2Layout = new javax.swing.GroupLayout(painel2);
-        painel2.setLayout(painel2Layout);
-        painel2Layout.setHorizontalGroup(
-            painel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(painel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelImagem, javax.swing.GroupLayout.DEFAULT_SIZE, 520, Short.MAX_VALUE)
-                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-        );
-        painel2Layout.setVerticalGroup(
-            painel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
-                .addComponent(labelImagem, javax.swing.GroupLayout.PREFERRED_SIZE, 431, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T2(1).png"))); // NOI18N
+        painel2.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 89, 520, 431));
 
         getContentPane().add(painel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 540, 520));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     public static void main(String args[]) {

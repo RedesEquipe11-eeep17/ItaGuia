@@ -1,5 +1,7 @@
 package view;
 
+import java.awt.Cursor;
+
 public class Tela6 extends javax.swing.JFrame {
 
     public Tela6() {
@@ -18,6 +20,7 @@ public class Tela6 extends javax.swing.JFrame {
         labelImagem4 = new javax.swing.JLabel();
         labelImagem5 = new javax.swing.JLabel();
         labelImagem6 = new javax.swing.JLabel();
+        labelIcon = new javax.swing.JLabel();
         barraMenu = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         menuItem1 = new javax.swing.JMenuItem();
@@ -27,15 +30,13 @@ public class Tela6 extends javax.swing.JFrame {
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
-        separador1 = new javax.swing.JPopupMenu.Separator();
-        menuItem8 = new javax.swing.JMenuItem();
-        menuItem9 = new javax.swing.JMenuItem();
         menu2 = new javax.swing.JMenu();
         menuItem10 = new javax.swing.JMenuItem();
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
+        menuItem13 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -43,91 +44,71 @@ public class Tela6 extends javax.swing.JFrame {
 
         painel1.setBackground(new java.awt.Color(153, 153, 153));
         painel1.setPreferredSize(new java.awt.Dimension(600, 500));
+        painel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         labelTitle.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("Fotos da Cidade");
+        painel1.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 1030, 37));
 
         labelImagem1.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(1).jpg"))); // NOI18N
         labelImagem1.setAutoscrolls(true);
         labelImagem1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja São Sebastiao", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 54, 340, 285));
 
         labelImagem2.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(2).jpg"))); // NOI18N
         labelImagem2.setAutoscrolls(true);
         labelImagem2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praça Três Climas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 54, 322, 285));
 
         labelImagem3.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(3).jpg"))); // NOI18N
         labelImagem3.setAutoscrolls(true);
         labelImagem3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Praça três Climas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem3, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 54, 322, 285));
 
         labelImagem4.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(4).jpg"))); // NOI18N
         labelImagem4.setAutoscrolls(true);
         labelImagem4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Igreja da Matriz", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 357, 340, 306));
 
         labelImagem5.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(5).jpg"))); // NOI18N
         labelImagem5.setAutoscrolls(true);
         labelImagem5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Ruas do Cruzeiro", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 357, 322, 306));
 
         labelImagem6.setBackground(new java.awt.Color(153, 153, 153));
         labelImagem6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T6(6).jpg"))); // NOI18N
         labelImagem6.setAutoscrolls(true);
         labelImagem6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Torre dos Picos", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 18))); // NOI18N
+        painel1.add(labelImagem6, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 357, 322, 276));
 
-        javax.swing.GroupLayout painel1Layout = new javax.swing.GroupLayout(painel1);
-        painel1.setLayout(painel1Layout);
-        painel1Layout.setHorizontalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(labelTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(painel1Layout.createSequentialGroup()
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel1Layout.createSequentialGroup()
-                                .addComponent(labelImagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
-                            .addGroup(painel1Layout.createSequentialGroup()
-                                .addComponent(labelImagem4, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)))
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(labelImagem5, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
-                            .addComponent(labelImagem2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(18, 18, 18)
-                        .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(labelImagem3, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
-                            .addComponent(labelImagem6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        painel1Layout.setVerticalGroup(
-            painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(painel1Layout.createSequentialGroup()
-                .addGap(11, 11, 11)
-                .addComponent(labelTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(labelImagem1, javax.swing.GroupLayout.DEFAULT_SIZE, 285, Short.MAX_VALUE)
-                    .addComponent(labelImagem2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(labelImagem3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addGroup(painel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelImagem4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(labelImagem5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(labelImagem6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-        );
+        labelIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/Avançar.png"))); // NOI18N
+        labelIcon.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                labelIconMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                labelIconMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                labelIconMouseExited(evt);
+            }
+        });
+        painel1.add(labelIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(965, 639, 57, -1));
 
-        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 630));
+        getContentPane().add(painel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 680));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -196,20 +177,6 @@ public class Tela6 extends javax.swing.JFrame {
             }
         });
         menu1.add(menuItem7);
-        menu1.add(separador1);
-
-        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
-        menuItem8.setText("Avançar");
-        menuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem8ActionPerformed(evt);
-            }
-        });
-        menu1.add(menuItem8);
-
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
-        menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
 
         barraMenu.add(menu1);
 
@@ -247,6 +214,15 @@ public class Tela6 extends javax.swing.JFrame {
         });
         menu3.add(menuItem12);
 
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setText("Desenvolvedores");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem13ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem13);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -254,6 +230,21 @@ public class Tela6 extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void labelIconMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelIconMouseClicked
+        this.dispose();
+        Tela6a t6a = new Tela6a();
+        t6a.setLocationRelativeTo(null);
+        t6a.setVisible(true);
+    }//GEN-LAST:event_labelIconMouseClicked
+
+    private void labelIconMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelIconMouseEntered
+        this.setCursor(Cursor.HAND_CURSOR);
+    }//GEN-LAST:event_labelIconMouseEntered
+
+    private void labelIconMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_labelIconMouseExited
+        this.setCursor(Cursor.DEFAULT_CURSOR);
+    }//GEN-LAST:event_labelIconMouseExited
 
     private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
         this.dispose();
@@ -304,13 +295,6 @@ public class Tela6 extends javax.swing.JFrame {
         t9.setVisible(true);
     }//GEN-LAST:event_menuItem7ActionPerformed
 
-    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
-        this.dispose();
-        Tela3 t3a = new Tela3();
-        t3a.setLocationRelativeTo(null);
-        t3a.setVisible(true);
-    }//GEN-LAST:event_menuItem8ActionPerformed
-
     private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
         this.dispose();
         Tela9a t9a = new Tela9a();
@@ -331,6 +315,13 @@ public class Tela6 extends javax.swing.JFrame {
         t9c.setLocationRelativeTo(null);
         t9c.setVisible(true);
     }//GEN-LAST:event_menuItem12ActionPerformed
+
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
+        this.dispose();
+        Tela9d t9d = new Tela9d();
+        t9d.setLocationRelativeTo(null);
+        t9d.setVisible(true);
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -369,6 +360,7 @@ public class Tela6 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
+    private javax.swing.JLabel labelIcon;
     private javax.swing.JLabel labelImagem1;
     private javax.swing.JLabel labelImagem2;
     private javax.swing.JLabel labelImagem3;
@@ -383,16 +375,14 @@ public class Tela6 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
     private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
     private javax.swing.JPanel painel1;
-    private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }

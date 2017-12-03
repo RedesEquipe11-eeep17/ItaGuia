@@ -25,15 +25,13 @@ public class Tela4f extends javax.swing.JFrame {
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
-        separador1 = new javax.swing.JPopupMenu.Separator();
-        menuItem8 = new javax.swing.JMenuItem();
-        menuItem9 = new javax.swing.JMenuItem();
         menu2 = new javax.swing.JMenu();
         menuItem10 = new javax.swing.JMenuItem();
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
+        menuItem13 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -48,10 +46,10 @@ public class Tela4f extends javax.swing.JFrame {
         labelTitle.setText("Praia da baleia");
         painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 450, 47));
 
-        labelTxt.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        labelTxt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         labelTxt.setForeground(new java.awt.Color(255, 255, 255));
         labelTxt.setText("<html><p align=\"justify\">Baleia está localizada na terra dos três climas, no município de Itapipoca,\ne fica a apenas a 168 km ao oeste de fortaleza. É conhecida por suas \npraias com grande vocação para o turismo, Baleia compõe o cenário de \ncoqueirais, dunas, lagoas, lagos, jangadas, rios e pôr-do-sol. Sua\npaisagem única e exuberante oferece ao turista as impetuosidades\ndos ventos e do sol, comuns no litoral e que excedem na praia da baleia.\nPara satisfazer os mais exigentes goumeres, temos cardápios variados\nque vão desde a pizza e massas italianas à diversidades de pratos a\nbase de frutos do mar, seus restaurantes têm como destaque especial\no peixe fresquinho, pescado na “riscas”(as poucas milhas da praia)\nentre eles o ariacó de carne tenra e saborosas .</p></html>");
-        painel.add(labelTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 76, 450, 189));
+        painel.add(labelTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 76, 450, 210));
 
         botaoReturn.setText("Retornar");
         botaoReturn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -135,20 +133,6 @@ public class Tela4f extends javax.swing.JFrame {
             }
         });
         menu1.add(menuItem7);
-        menu1.add(separador1);
-
-        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
-        menuItem8.setText("Avançar");
-        menuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem8ActionPerformed(evt);
-            }
-        });
-        menu1.add(menuItem8);
-
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
-        menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
 
         barraMenu.add(menu1);
 
@@ -185,6 +169,15 @@ public class Tela4f extends javax.swing.JFrame {
             }
         });
         menu3.add(menuItem12);
+
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setText("Desenvolvedores");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem13ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem13);
 
         barraMenu.add(menu3);
 
@@ -250,13 +243,6 @@ public class Tela4f extends javax.swing.JFrame {
         t9.setVisible(true);
     }//GEN-LAST:event_menuItem7ActionPerformed
 
-    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
-        this.dispose();
-        Tela3 t3a = new Tela3();
-        t3a.setLocationRelativeTo(null);
-        t3a.setVisible(true);
-    }//GEN-LAST:event_menuItem8ActionPerformed
-
     private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
         this.dispose();
         Tela9a t9a = new Tela9a();
@@ -277,6 +263,13 @@ public class Tela4f extends javax.swing.JFrame {
         t9c.setLocationRelativeTo(null);
         t9c.setVisible(true);
     }//GEN-LAST:event_menuItem12ActionPerformed
+
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
+        this.dispose();
+        Tela9d t9d = new Tela9d();
+        t9d.setLocationRelativeTo(null);
+        t9d.setVisible(true);
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -326,16 +319,14 @@ public class Tela4f extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
     private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
     private javax.swing.JPanel painel;
-    private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }

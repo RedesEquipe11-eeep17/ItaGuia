@@ -3,6 +3,7 @@ package view;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import javax.swing.JOptionPane;
 
 public class Tela9b extends javax.swing.JFrame {
 
@@ -29,15 +30,13 @@ public class Tela9b extends javax.swing.JFrame {
         menuItem5 = new javax.swing.JMenuItem();
         menuItem6 = new javax.swing.JMenuItem();
         menuItem7 = new javax.swing.JMenuItem();
-        separador1 = new javax.swing.JPopupMenu.Separator();
-        menuItem8 = new javax.swing.JMenuItem();
-        menuItem9 = new javax.swing.JMenuItem();
         menu2 = new javax.swing.JMenu();
         menuItem10 = new javax.swing.JMenuItem();
         separator2 = new javax.swing.JPopupMenu.Separator();
         menuItem11 = new javax.swing.JMenuItem();
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
+        menuItem13 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -49,13 +48,13 @@ public class Tela9b extends javax.swing.JFrame {
         labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("Relatar problema");
-        jPanel1.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 32, 690, 40));
+        jPanel1.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 32, 510, 40));
 
         labelSubtitle.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         labelSubtitle.setForeground(new java.awt.Color(255, 255, 255));
         labelSubtitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelSubtitle.setText("Digite aqui o problema visto e e tentaremos resolve-lo");
-        jPanel1.add(labelSubtitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 690, 40));
+        jPanel1.add(labelSubtitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 510, 40));
 
         campoTexto.setBorder(null);
         campoTexto.setOpaque(false);
@@ -64,16 +63,16 @@ public class Tela9b extends javax.swing.JFrame {
                 campoTextoActionPerformed(evt);
             }
         });
-        jPanel1.add(campoTexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 230, 110));
+        jPanel1.add(campoTexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 210, 230, 110));
 
         labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/oie_transparent.png"))); // NOI18N
-        jPanel1.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 150, 450, 280));
+        jPanel1.add(labelImagem2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 450, 280));
 
-        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
-        jPanel1.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 460));
+        labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/background-preto-fundo.jpg"))); // NOI18N
+        jPanel1.add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 540, 460));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, -1));
 
         barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -142,20 +141,6 @@ public class Tela9b extends javax.swing.JFrame {
             }
         });
         menu1.add(menuItem7);
-        menu1.add(separador1);
-
-        menuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
-        menuItem8.setText("Avançar");
-        menuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem8ActionPerformed(evt);
-            }
-        });
-        menu1.add(menuItem8);
-
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
-        menuItem9.setText("Retornar");
-        menu1.add(menuItem9);
 
         barraMenu.add(menu1);
 
@@ -193,6 +178,15 @@ public class Tela9b extends javax.swing.JFrame {
         });
         menu3.add(menuItem12);
 
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setText("Desenvolvedores");
+        menuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItem13ActionPerformed(evt);
+            }
+        });
+        menu3.add(menuItem13);
+
         barraMenu.add(menu3);
 
         setJMenuBar(barraMenu);
@@ -213,6 +207,7 @@ public class Tela9b extends javax.swing.JFrame {
             
         }
         campoTexto.setText("");
+        JOptionPane.showMessageDialog(null, "Seu cometario foi arquivado");
     }//GEN-LAST:event_campoTextoActionPerformed
 
     private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
@@ -264,13 +259,6 @@ public class Tela9b extends javax.swing.JFrame {
         t9.setVisible(true);
     }//GEN-LAST:event_menuItem7ActionPerformed
 
-    private void menuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem8ActionPerformed
-        this.dispose();
-        Tela3 t3a = new Tela3();
-        t3a.setLocationRelativeTo(null);
-        t3a.setVisible(true);
-    }//GEN-LAST:event_menuItem8ActionPerformed
-
     private void menuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem10ActionPerformed
         this.dispose();
         Tela9a t9a = new Tela9a();
@@ -291,6 +279,13 @@ public class Tela9b extends javax.swing.JFrame {
         t9c.setLocationRelativeTo(null);
         t9c.setVisible(true);
     }//GEN-LAST:event_menuItem12ActionPerformed
+
+    private void menuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem13ActionPerformed
+        this.dispose();
+        Tela9d t9d = new Tela9d();
+        t9d.setLocationRelativeTo(null);
+        t9d.setVisible(true);
+    }//GEN-LAST:event_menuItem13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -343,15 +338,13 @@ public class Tela9b extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
     private javax.swing.JMenuItem menuItem12;
+    private javax.swing.JMenuItem menuItem13;
     private javax.swing.JMenuItem menuItem2;
     private javax.swing.JMenuItem menuItem3;
     private javax.swing.JMenuItem menuItem4;
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
-    private javax.swing.JPopupMenu.Separator separador1;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }
