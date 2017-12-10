@@ -12,6 +12,7 @@ public class Tela9c extends javax.swing.JFrame {
     private void initComponents() {
 
         painel = new javax.swing.JPanel();
+        labelTitle = new javax.swing.JLabel();
         labelText = new javax.swing.JLabel();
         botaoReturn = new javax.swing.JButton();
         labelImagem = new javax.swing.JLabel();
@@ -23,10 +24,16 @@ public class Tela9c extends javax.swing.JFrame {
         painel.setBackground(new java.awt.Color(0, 0, 0));
         painel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        labelText.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        labelTitle.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
+        labelTitle.setForeground(new java.awt.Color(255, 255, 255));
+        labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelTitle.setText("<html>Qual seu intuito?</html>");
+        painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 410, 50));
+
+        labelText.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         labelText.setForeground(new java.awt.Color(255, 255, 255));
         labelText.setText("<html><p align=\"justify\">Esse software foi criado com o intuito de informar e lhes disponinibilizar mais aprendizado sobre nossa cidade e tambem sobre suas girias,cultura e seus principais pontos turisticos, não só isso mais para tambem em um futuro proximo visitantes de outros locais obtessem conhecimento sobre o mesmo.</p></html>");
-        painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 400, 340));
+        painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 410, 290));
 
         botaoReturn.setText("Retornar");
         botaoReturn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -94,6 +101,7 @@ public class Tela9c extends javax.swing.JFrame {
     private javax.swing.JButton botaoReturn;
     private javax.swing.JLabel labelImagem;
     private javax.swing.JLabel labelText;
+    private javax.swing.JLabel labelTitle;
     private javax.swing.JPanel painel;
     // End of variables declaration//GEN-END:variables
 }

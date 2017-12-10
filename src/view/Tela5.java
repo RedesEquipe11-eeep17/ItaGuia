@@ -26,9 +26,9 @@ public class Tela5 extends javax.swing.JFrame {
         botao5 = new javax.swing.JButton();
         botao7 = new javax.swing.JButton();
         labelImagem = new javax.swing.JLabel();
-        barraMenu2 = new javax.swing.JMenuBar();
-        menu5 = new javax.swing.JMenu();
-        menuItem9 = new javax.swing.JMenuItem();
+        barraMenu = new javax.swing.JMenuBar();
+        menu1 = new javax.swing.JMenu();
+        menuItem1 = new javax.swing.JMenuItem();
         menuItem2 = new javax.swing.JMenuItem();
         menuItem3 = new javax.swing.JMenuItem();
         menuItem4 = new javax.swing.JMenuItem();
@@ -42,6 +42,7 @@ public class Tela5 extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
         menuItem13 = new javax.swing.JMenuItem();
+        menu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -126,19 +127,19 @@ public class Tela5 extends javax.swing.JFrame {
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/BackgroundTelas.png"))); // NOI18N
         getContentPane().add(labelImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 400));
 
-        barraMenu2.setBackground(new java.awt.Color(255, 255, 255));
+        barraMenu.setBackground(new java.awt.Color(255, 255, 255));
 
-        menu5.setBackground(new java.awt.Color(255, 255, 255));
-        menu5.setText("Navegar");
+        menu1.setBackground(new java.awt.Color(255, 255, 255));
+        menu1.setText("Navegar");
 
-        menuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        menuItem9.setText("Ir para Início");
-        menuItem9.addActionListener(new java.awt.event.ActionListener() {
+        menuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        menuItem1.setText("Ir para Início");
+        menuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItem9ActionPerformed(evt);
+                menuItem1ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem9);
+        menu1.add(menuItem1);
 
         menuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
         menuItem2.setText("Ir para Pontos Turísticos");
@@ -147,7 +148,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem2ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem2);
+        menu1.add(menuItem2);
 
         menuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
         menuItem3.setText("Ir para Festejos da Cidade");
@@ -156,7 +157,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem3ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem3);
+        menu1.add(menuItem3);
 
         menuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
         menuItem4.setText("Ir para Fotos da Cidade");
@@ -165,7 +166,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem4ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem4);
+        menu1.add(menuItem4);
 
         menuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
         menuItem5.setText("Ir para Historia");
@@ -174,7 +175,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem5ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem5);
+        menu1.add(menuItem5);
 
         menuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
         menuItem6.setText("Ir para Mapa de Itapipoca");
@@ -183,7 +184,7 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem6ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem6);
+        menu1.add(menuItem6);
 
         menuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         menuItem7.setText("Ir para Dicionario");
@@ -192,11 +193,11 @@ public class Tela5 extends javax.swing.JFrame {
                 menuItem7ActionPerformed(evt);
             }
         });
-        menu5.add(menuItem7);
+        menu1.add(menuItem7);
 
-        barraMenu2.add(menu5);
+        barraMenu.add(menu1);
 
-        menu2.setText("Ajuda");
+        menu2.setText("Opções");
 
         menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
@@ -217,7 +218,7 @@ public class Tela5 extends javax.swing.JFrame {
         });
         menu2.add(menuItem11);
 
-        barraMenu2.add(menu2);
+        barraMenu.add(menu2);
 
         menu3.setText("Sobre");
 
@@ -239,9 +240,12 @@ public class Tela5 extends javax.swing.JFrame {
         });
         menu3.add(menuItem13);
 
-        barraMenu2.add(menu3);
+        barraMenu.add(menu3);
 
-        setJMenuBar(barraMenu2);
+        menu4.setText("Ajuda");
+        barraMenu.add(menu4);
+
+        setJMenuBar(barraMenu);
 
         pack();
         setLocationRelativeTo(null);
@@ -296,12 +300,12 @@ public class Tela5 extends javax.swing.JFrame {
         t5g.setVisible(true);
     }//GEN-LAST:event_botao7ActionPerformed
 
-    private void menuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem9ActionPerformed
+    private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
         this.dispose();
         Tela3 t3 = new Tela3();
         t3.setLocationRelativeTo(null);
         t3.setVisible(true);
-    }//GEN-LAST:event_menuItem9ActionPerformed
+    }//GEN-LAST:event_menuItem1ActionPerformed
 
     private void menuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem2ActionPerformed
         this.dispose();
@@ -410,8 +414,6 @@ public class Tela5 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JMenuBar barraMenu1;
-    private javax.swing.JMenuBar barraMenu2;
     private javax.swing.JButton botao1;
     private javax.swing.JButton botao2;
     private javax.swing.JButton botao3;
@@ -425,7 +427,6 @@ public class Tela5 extends javax.swing.JFrame {
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
     private javax.swing.JMenu menu4;
-    private javax.swing.JMenu menu5;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
@@ -437,8 +438,6 @@ public class Tela5 extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItem5;
     private javax.swing.JMenuItem menuItem6;
     private javax.swing.JMenuItem menuItem7;
-    private javax.swing.JMenuItem menuItem8;
-    private javax.swing.JMenuItem menuItem9;
     private javax.swing.JPopupMenu.Separator separator2;
     // End of variables declaration//GEN-END:variables
 }

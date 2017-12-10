@@ -47,6 +47,7 @@ public class Tela8 extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
         menuItem13 = new javax.swing.JMenuItem();
+        menu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -58,7 +59,7 @@ public class Tela8 extends javax.swing.JFrame {
         labelTitle.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         labelTitle.setForeground(new java.awt.Color(255, 255, 255));
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelTitle.setText("Mapa de Itapipoca");
+        labelTitle.setText("Mapa de Itapipoca/Distritos");
         painel.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 360, 45));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -140,7 +141,7 @@ public class Tela8 extends javax.swing.JFrame {
 
         barraMenu.add(menu1);
 
-        menu2.setText("Ajuda");
+        menu2.setText("Opções");
 
         menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
@@ -184,6 +185,9 @@ public class Tela8 extends javax.swing.JFrame {
         menu3.add(menuItem13);
 
         barraMenu.add(menu3);
+
+        menu4.setText("Ajuda");
+        barraMenu.add(menu4);
 
         setJMenuBar(barraMenu);
 
@@ -311,6 +315,7 @@ public class Tela8 extends javax.swing.JFrame {
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
+    private javax.swing.JMenu menu4;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;

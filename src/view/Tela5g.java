@@ -31,6 +31,7 @@ public class Tela5g extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
         menuItem13 = new javax.swing.JMenuItem();
+        menu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -130,7 +131,7 @@ public class Tela5g extends javax.swing.JFrame {
 
         barraMenu.add(menu1);
 
-        menu2.setText("Ajuda");
+        menu2.setText("Opções");
 
         menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
@@ -174,6 +175,9 @@ public class Tela5g extends javax.swing.JFrame {
         menu3.add(menuItem13);
 
         barraMenu.add(menu3);
+
+        menu4.setText("Ajuda");
+        barraMenu.add(menu4);
 
         setJMenuBar(barraMenu);
 
@@ -309,6 +313,7 @@ public class Tela5g extends javax.swing.JFrame {
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
+    private javax.swing.JMenu menu4;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;

@@ -57,6 +57,7 @@ public class Tela9 extends javax.swing.JFrame {
         menu3 = new javax.swing.JMenu();
         menuItem12 = new javax.swing.JMenuItem();
         menuItem13 = new javax.swing.JMenuItem();
+        menu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -344,7 +345,7 @@ public class Tela9 extends javax.swing.JFrame {
 
         barraMenu.add(menu1);
 
-        menu2.setText("Ajuda");
+        menu2.setText("Opções");
 
         menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
@@ -389,6 +390,9 @@ public class Tela9 extends javax.swing.JFrame {
 
         barraMenu.add(menu3);
 
+        menu4.setText("Ajuda");
+        barraMenu.add(menu4);
+
         setJMenuBar(barraMenu);
 
         pack();
@@ -399,7 +403,7 @@ public class Tela9 extends javax.swing.JFrame {
         
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>bobo, besta, pateta</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao1ActionPerformed
@@ -407,7 +411,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao2ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>pessoa que gosta de aparecer, chamar a atenção</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao2ActionPerformed
@@ -415,7 +419,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao3ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>preocupado, com problemas, agoniado, situação de Stress, apoquentado, nervoso, em aperto financeiro.</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao3ActionPerformed
@@ -423,7 +427,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao4ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>implicar, discutir, brigar</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao4ActionPerformed
@@ -431,7 +435,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao5ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>dar a volta por fora, ir pelo outro lado</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao5ActionPerformed
@@ -439,7 +443,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao6ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>apressado, afobado</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao6ActionPerformed
@@ -447,7 +451,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao7ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>apressar, afobar</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao7ActionPerformed
@@ -455,7 +459,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao8ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>bater em algo.Ex:(Dei uma barruada no carro do Zé que arrancou o para-choques)</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao8ActionPerformed
@@ -463,7 +467,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao9ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>forma carinhosa de chamar alguém. Ex:(Ei bichinho, venha aqui)</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao9ActionPerformed
@@ -471,7 +475,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao10ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>aquele que gosta de mexer em tudo</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao10ActionPerformed
@@ -479,7 +483,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao11ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>variação de alcagüete, delator, dedo-duro</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao11ActionPerformed
@@ -487,7 +491,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao12ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>emprega-se para dizer que uma pessoa tem sorte.Ex:(Fulano num perde uma no dominó, ô bicho cagado)</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao12ActionPerformed
@@ -495,7 +499,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao13ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>pernas finas</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao13ActionPerformed
@@ -503,7 +507,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao14ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>pescoço. Ex: (Dexa eu dar um chero nesse cangote)</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao14ActionPerformed
@@ -511,7 +515,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao15ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>mau cheiro</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao15ActionPerformed
@@ -519,7 +523,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao16ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>rato grande</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao16ActionPerformed
@@ -527,7 +531,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao17ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>menino de rua, pivete</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao17ActionPerformed
@@ -535,7 +539,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao18ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>tirar sarro</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao18ActionPerformed
@@ -543,7 +547,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao19ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>muito bom, legal, excelente</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao19ActionPerformed
@@ -551,7 +555,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao20ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>vagabundo, de má qualidade</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao20ActionPerformed
@@ -559,7 +563,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao21ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>sair fora, ir embora</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao21ActionPerformed
@@ -567,7 +571,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao22ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>mulher vulgar, Puta</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao22ActionPerformed
@@ -575,7 +579,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao23ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>“O cara é Rochedo”, o cara é gente boa, de confiança</center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao23ActionPerformed
@@ -583,7 +587,7 @@ public class Tela9 extends javax.swing.JFrame {
     private void botao24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao24ActionPerformed
         Font fonte = new Font("Arial", Font.BOLD, 24);
         texto.setFont(fonte);
-        texto.setForeground(Color.white);
+        texto.setForeground(Color.RED);
         texto.setText("<html><center>barulho, confusão.(Ex: Que zoada é essa? É o trio elétrico passando.) </center></html>");
         texto.setFont(fonte);
     }//GEN-LAST:event_botao24ActionPerformed
@@ -729,6 +733,7 @@ public class Tela9 extends javax.swing.JFrame {
     private javax.swing.JMenu menu1;
     private javax.swing.JMenu menu2;
     private javax.swing.JMenu menu3;
+    private javax.swing.JMenu menu4;
     private javax.swing.JMenuItem menuItem1;
     private javax.swing.JMenuItem menuItem10;
     private javax.swing.JMenuItem menuItem11;
