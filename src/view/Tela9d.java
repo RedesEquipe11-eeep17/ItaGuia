@@ -33,7 +33,7 @@ public class Tela9d extends javax.swing.JFrame {
 
         labelImagem1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T9d(2).png"))); // NOI18N
-        labelImagem1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mylliane Maria", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
+        labelImagem1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Millyane Maria", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
         getContentPane().add(labelImagem1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 130, 200, 300));
 
         labelImagem2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

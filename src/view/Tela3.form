@@ -104,7 +104,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem10">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F10"/>
+                  <KeyStroke key="F8"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Deixe seu Comentario"/>
               </Properties>
@@ -117,7 +117,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem11">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F11"/>
+                  <KeyStroke key="F9"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Relatar Problema"/>
               </Properties>
@@ -135,7 +135,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem12">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F12"/>
+                  <KeyStroke key="F10"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Sobre o Software"/>
               </Properties>
@@ -146,7 +146,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem13">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="TAB"/>
+                  <KeyStroke key="F11"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Desenvolvedores"/>
               </Properties>

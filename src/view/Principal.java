@@ -5,5 +5,6 @@ public class Principal {
         Tela1 t1 = new Tela1();
         t1.setLocationRelativeTo(null);
         t1.setVisible(true);
+        t1.Design();
     }
 }

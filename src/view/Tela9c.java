@@ -29,6 +29,8 @@ public class Tela9c extends javax.swing.JFrame {
         painel.add(labelText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 400, 340));
 
         botaoReturn.setText("Retornar");
+        botaoReturn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        botaoReturn.setBorderPainted(false);
         botaoReturn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botaoReturnActionPerformed(evt);

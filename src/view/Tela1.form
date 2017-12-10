@@ -104,7 +104,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem10">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F10"/>
+                  <KeyStroke key="F8"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Deixe seu Comentario"/>
               </Properties>
@@ -117,7 +117,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem11">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F11"/>
+                  <KeyStroke key="F9"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Relatar Problema"/>
               </Properties>
@@ -135,7 +135,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem12">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="F12"/>
+                  <KeyStroke key="F10"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Sobre o Software"/>
               </Properties>
@@ -146,7 +146,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="menuItem13">
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
-                  <KeyStroke key="TAB"/>
+                  <KeyStroke key="F11"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Desenvolvedores"/>
               </Properties>
@@ -227,35 +227,26 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;DIGITE GUIA&lt;/center&gt;&lt;/html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;Digite Seu Nome:&lt;/center&gt;&lt;/html&gt;"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="440" width="80" height="40"/>
+              <AbsoluteConstraints x="10" y="430" width="90" height="60"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JPasswordField" name="campoSenha">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="24" style="0"/>
-            </Property>
-            <Property name="toolTipText" type="java.lang.String" value="Digite a Senha"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="campoTxt">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="campoSenhaActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="campoTxtActionPerformed"/>
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="110" y="440" width="340" height="40"/>
+              <AbsoluteConstraints x="109" y="440" width="340" height="40"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="botaoAvanc">
           <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial" size="12" style="1"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Avan&#xe7;ar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -269,7 +260,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="480" y="440" width="80" height="40"/>
+              <AbsoluteConstraints x="470" y="440" width="100" height="40"/>
             </Constraint>
           </Constraints>
         </Component>

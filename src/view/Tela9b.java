@@ -146,7 +146,7 @@ public class Tela9b extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
-        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,7 +156,7 @@ public class Tela9b extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
-        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,7 +169,7 @@ public class Tela9b extends javax.swing.JFrame {
 
         menu3.setText("Sobre");
 
-        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem12.setText("Sobre o Software");
         menuItem12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +178,7 @@ public class Tela9b extends javax.swing.JFrame {
         });
         menu3.add(menuItem12);
 
-        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem13.setText("Desenvolvedores");
         menuItem13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -196,7 +196,7 @@ public class Tela9b extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void campoTextoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoTextoActionPerformed
-        Path caminho  = Paths.get("C:/Users/Usuário/Desktop/Software TXTs/Problemas.txt");
+        Path caminho  = Paths.get("C:/Users/Usuário/Documents/NetBeansProjects/ItaGuia/Software TXTs/Problemas.txt");
         String texto = campoTexto.getText();
         byte[] textoEmByte = texto.getBytes();
         try{

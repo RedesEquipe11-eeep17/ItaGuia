@@ -36,6 +36,11 @@ public class Tela2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         painel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -44,7 +49,7 @@ public class Tela2 extends javax.swing.JFrame {
         labelTitle.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         labelTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelTitle.setText("Bem Vindo ao Guia Turístico!!!");
-        painel2.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 520, 62));
+        painel2.add(labelTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 520, 90));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T2(1).png"))); // NOI18N
@@ -55,6 +60,12 @@ public class Tela2 extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        labelTitle.setText("<html>"+Tela1.resposta+" Seja Bem Vindo ao Guia Turístico!!!</br></html>");
+        contarTempo();
+        
+    }//GEN-LAST:event_formWindowOpened
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

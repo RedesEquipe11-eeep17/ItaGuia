@@ -8,6 +8,7 @@ public class Tela1 extends javax.swing.JFrame {
 
     public Tela1() {
         initComponents();
+        Design();
         botaoAvanc.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
     }
 
@@ -18,7 +19,7 @@ public class Tela1 extends javax.swing.JFrame {
         painel = new javax.swing.JPanel();
         labelTitle = new javax.swing.JLabel();
         labelNome = new javax.swing.JLabel();
-        campoSenha = new javax.swing.JPasswordField();
+        campoTxt = new javax.swing.JTextField();
         botaoAvanc = new javax.swing.JButton();
         labelImagem = new javax.swing.JLabel();
         labelImagem2 = new javax.swing.JLabel();
@@ -55,19 +56,16 @@ public class Tela1 extends javax.swing.JFrame {
         labelNome.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         labelNome.setForeground(new java.awt.Color(255, 255, 255));
         labelNome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelNome.setText("<html><center>DIGITE GUIA</center></html>");
-        painel.add(labelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 80, 40));
+        labelNome.setText("<html><center>Digite Seu Nome:</center></html>");
+        painel.add(labelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 90, 60));
 
-        campoSenha.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        campoSenha.setToolTipText("Digite a Senha");
-        campoSenha.addActionListener(new java.awt.event.ActionListener() {
+        campoTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                campoSenhaActionPerformed(evt);
+                campoTxtActionPerformed(evt);
             }
         });
-        painel.add(campoSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 440, 340, 40));
+        painel.add(campoTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(109, 440, 340, 40));
 
-        botaoAvanc.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         botaoAvanc.setText("Avançar");
         botaoAvanc.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         botaoAvanc.setBorderPainted(false);
@@ -76,7 +74,7 @@ public class Tela1 extends javax.swing.JFrame {
                 botaoAvancActionPerformed(evt);
             }
         });
-        painel.add(botaoAvanc, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 440, 80, 40));
+        painel.add(botaoAvanc, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 440, 100, 40));
 
         labelImagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/T1(1).jpg"))); // NOI18N
@@ -159,7 +157,7 @@ public class Tela1 extends javax.swing.JFrame {
 
         menu2.setText("Ajuda");
 
-        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
+        menuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         menuItem10.setText("Deixe seu Comentario");
         menuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,7 +167,7 @@ public class Tela1 extends javax.swing.JFrame {
         menu2.add(menuItem10);
         menu2.add(separator2);
 
-        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
+        menuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
         menuItem11.setText("Relatar Problema");
         menuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,7 +180,7 @@ public class Tela1 extends javax.swing.JFrame {
 
         menu3.setText("Sobre");
 
-        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, 0));
+        menuItem12.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
         menuItem12.setText("Sobre o Software");
         menuItem12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,7 +189,7 @@ public class Tela1 extends javax.swing.JFrame {
         });
         menu3.add(menuItem12);
 
-        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_TAB, 0));
+        menuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
         menuItem13.setText("Desenvolvedores");
         menuItem13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -208,27 +206,6 @@ public class Tela1 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void botaoAvancActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoAvancActionPerformed
-        String resposta;
-        resposta = campoSenha.getText();
-        
-        if(resposta.equals("guia")){
-            
-            this.setVisible(false);
-            Tela2 t2=new Tela2();
-            t2.setVisible(true);
-            t2.setLocationRelativeTo(null);
-            t2.contarTempo();
-            
-       }
-        
-        else if(resposta.equals("")){
-            JOptionPane.showMessageDialog(null, "Digite a Senha");
-        }else{
-            JOptionPane.showMessageDialog(null, "Senha Incorreta");
-        }
-    }//GEN-LAST:event_botaoAvancActionPerformed
-
     private void menuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem1ActionPerformed
         this.dispose();
         Tela3 t3 = new Tela3();
@@ -242,27 +219,6 @@ public class Tela1 extends javax.swing.JFrame {
         t4.setLocationRelativeTo(null);
         t4.setVisible(true);
     }//GEN-LAST:event_menuItem2ActionPerformed
-
-    private void campoSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoSenhaActionPerformed
-        String resposta;
-        resposta = campoSenha.getText();
-        
-        if(resposta.equals("guia")){
-            
-            this.setVisible(false);
-            Tela2 t2=new Tela2();
-            t2.setVisible(true);
-            t2.setLocationRelativeTo(null);
-            t2.contarTempo();
-            
-        }
-        else if(resposta.equals("")){
-            JOptionPane.showMessageDialog(null, "Digite a Senha");
-        }else{
-            JOptionPane.showMessageDialog(null, "Senha Incorreta");
-            
-        }
-    }//GEN-LAST:event_campoSenhaActionPerformed
 
     private void menuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItem3ActionPerformed
         this.dispose();
@@ -327,6 +283,39 @@ public class Tela1 extends javax.swing.JFrame {
         t9d.setVisible(true);
     }//GEN-LAST:event_menuItem13ActionPerformed
 
+    private void botaoAvancActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoAvancActionPerformed
+        
+    }//GEN-LAST:event_botaoAvancActionPerformed
+static String resposta;
+    private void campoTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoTxtActionPerformed
+        resposta = campoTxt.getText();
+        if(resposta.equals("")){
+            JOptionPane.showMessageDialog(null, "Digite a Senha");
+        }else{            
+            Tela2 t = new Tela2();
+            t.setLocationRelativeTo(null);
+            t.setVisible(true);
+            this.dispose();
+        }
+    }//GEN-LAST:event_campoTxtActionPerformed
+public void Design(){
+    try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+}
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -361,7 +350,7 @@ public class Tela1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JButton botaoAvanc;
-    private javax.swing.JPasswordField campoSenha;
+    private javax.swing.JTextField campoTxt;
     private javax.swing.JLabel labelImagem;
     private javax.swing.JLabel labelImagem2;
     private javax.swing.JLabel labelNome;
